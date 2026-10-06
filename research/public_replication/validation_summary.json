@@ -1,0 +1,150 @@
+{
+  "scope": "PUBLIC REPLICATION COHORT — NOT SEALED HACKATHON RESULTS",
+  "purpose": "EXECUTION VERIFICATION ONLY; NO PERFORMANCE STUDY",
+  "status": "PASS",
+  "selection_manifest_sha256": "8bde479d555e1fb0599e1a63e658cfc23b6f0ea030c32796270a557b1ba9dd3b",
+  "selection_rule": "original candidate_plan; no pilot prefix; public eligibility and aline1 hint; sorted public IDs then seed-42 permutation; first 12; no replacement",
+  "outcome_blind": true,
+  "public_cohort_counts": {
+    "requested_cases": 12,
+    "parsed_cases": 12,
+    "included_cases": 12,
+    "eligible_windows": 1506,
+    "positive_windows": 70,
+    "confirmed_episodes": 22,
+    "evaluable_episodes": 20,
+    "censored_anchors": 112,
+    "ineligible_anchors": 262,
+    "full_predictors": 74,
+    "map_predictors": 18,
+    "partition_subject_counts": {
+      "replication_calibration": 1,
+      "replication_test": 2,
+      "replication_training": 7,
+      "replication_tuning": 2
+    },
+    "partition_windows": {
+      "replication_calibration": 24,
+      "replication_test": 278,
+      "replication_training": 727,
+      "replication_tuning": 477
+    },
+    "training_class_counts": {
+      "0": 685,
+      "1": 42
+    },
+    "query_windows": 779
+  },
+  "scientific_stages": {
+    "canonical_acquisition_and_sha256": "PASS",
+    "original_preprocessing": "PASS",
+    "original_event_detection": "PASS",
+    "original_anchors": "PASS",
+    "original_labels": "PASS",
+    "original_censoring": "PASS",
+    "full_74_features": "PASS",
+    "map_18_features": "PASS",
+    "subject_partitioning": "PASS",
+    "schema_order": "PASS",
+    "query_alignment": "PASS",
+    "mocked_tabpfn_interface": "PASS"
+  },
+  "model_statuses": {
+    "current_map": {
+      "status": "PASS",
+      "scope": "PUBLIC REPLICATION COHORT — NOT SEALED HACKATHON RESULTS",
+      "query_order_preserved": true,
+      "output_kind": "raw_ranking_score",
+      "probability_validation": null
+    },
+    "logistic_full": {
+      "status": "PASS",
+      "scope": "PUBLIC REPLICATION COHORT — NOT SEALED HACKATHON RESULTS",
+      "query_order_preserved": true,
+      "output_kind": "raw_probability",
+      "probability_validation": "PASS"
+    },
+    "logistic_map": {
+      "status": "PASS",
+      "scope": "PUBLIC REPLICATION COHORT — NOT SEALED HACKATHON RESULTS",
+      "query_order_preserved": true,
+      "output_kind": "raw_probability",
+      "probability_validation": "PASS"
+    },
+    "prevalence": {
+      "status": "PASS",
+      "scope": "PUBLIC REPLICATION COHORT — NOT SEALED HACKATHON RESULTS",
+      "query_order_preserved": true,
+      "output_kind": "raw_probability",
+      "probability_validation": "PASS"
+    },
+    "tabpfn_full": {
+      "status": "SKIPPED",
+      "scope": "PUBLIC REPLICATION COHORT — NOT SEALED HACKATHON RESULTS",
+      "reason": "authenticated hosted access required; explicit --with-tabpfn opt-in required"
+    },
+    "tabpfn_map": {
+      "status": "SKIPPED",
+      "scope": "PUBLIC REPLICATION COHORT — NOT SEALED HACKATHON RESULTS",
+      "reason": "authenticated hosted access required; explicit --with-tabpfn opt-in required"
+    },
+    "xgboost": {
+      "status": "PASS",
+      "scope": "PUBLIC REPLICATION COHORT — NOT SEALED HACKATHON RESULTS",
+      "query_order_preserved": true,
+      "output_kind": "raw_probability",
+      "probability_validation": "PASS"
+    }
+  },
+  "repeatability": {
+    "full_public_runs": 2,
+    "selection_cli_runs": 2,
+    "seven_table_hashes_identical": true,
+    "five_conventional_prediction_arrays_exactly_identical": true,
+    "source_cache_explicit_and_release_verified": true
+  },
+  "verification": {
+    "public_research_tests_passed": 109,
+    "frontend_tests_passed": 284,
+    "npm_ci": "PASS with workspace-local cache",
+    "typecheck": "PASS",
+    "build": "PASS",
+    "ruff_lint": "PASS with existing archived-test import-order exception",
+    "ruff_format": "PASS",
+    "shell_syntax_checks": 8,
+    "new_cli_help": "PASS",
+    "hosted_tabpfn_execution": "SKIPPED — not requested; authenticated hosted access required",
+    "hosted_requests": 0,
+    "calibration_fitting": "NOT APPLICABLE — raw outputs only",
+    "metrics_computed": false,
+    "sealed_models_refit": false,
+    "sealed_ap_or_calibration_or_reference_artifacts_changed": false,
+    "root_readme_unchanged": true
+  },
+  "boundaries": {
+    "private_roster_used": false,
+    "private_pilot_used": false,
+    "protected_plans_used": false,
+    "private_crosswalk_used": false,
+    "sealed_estimator_used": false,
+    "sealed_calibration_used": false,
+    "hyperparameter_search": false,
+    "raw_data_or_patient_tables_published": false
+  },
+  "implementation": {
+    "adapter_role": "new orchestrator around byte-identical recovered original scientific functions",
+    "table_sha256": {
+      "tables/public_replication_anchor_audit.csv": "ac6883ae8d55809af159733af21a90f9ddacf62a3dea7f4591f217bdfdd79870",
+      "tables/public_replication_episodes.csv": "58e2dff3e93d970a167a1cfbe1bcf12c4a7342eefead19360268587721f7b14a",
+      "tables/public_replication_features.csv": "a69cfc4cbe05271f91b5a53b0f8982fec81ff12be1e8d65f4e18a8f37c46ba69",
+      "tables/public_replication_labels.csv": "23b8afcc343a388c5a1d3dfaf28dfc960cb090867cac04f49941f27dff69ecd9",
+      "tables/public_replication_map_features.csv": "0e1efe5e5a5c92b2cbb719b0e045fc765edb3ac9e6da44de6f69842d8ec71460",
+      "tables/public_replication_metadata.csv": "91effa8adeb2b3b22b15865dea5440f7e4c2838c49ee7e0d454b227b2c26f035",
+      "tables/public_replication_split.json": "08bacbca7a660baf8c5fbcb33edbdcbaa9beef950d4c1e9d546e099540d7b46e"
+    }
+  },
+  "determination": {
+    "public_replication": "FULLY RUNNABLE (data/conventional path validated; hosted optional and not executed)",
+    "sealed_study": "PARTIALLY REPRODUCIBLE"
+  }
+}

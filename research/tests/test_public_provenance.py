@@ -2,6 +2,7 @@
 
 import hashlib
 import json
+import subprocess
 import sys
 import unittest
 from pathlib import Path
@@ -85,7 +86,26 @@ class PublicationTests(unittest.TestCase):
 
     def test_private_roster_and_raw_data_absent(self):
         self.assertFalse((ROOT / "private/cohort-selection.json").exists())
-        self.assertFalse(list(ROOT.rglob("*.vital")))
+        for path in ROOT.rglob("*.vital"):
+            relative = path.relative_to(ROOT)
+            self.assertEqual(relative.parts[0], "outputs", "Raw input outside ignored outputs")
+            self.assertTrue(relative.parts[1].startswith("public-replication"))
+            output = ROOT / "outputs" / relative.parts[1]
+            scope = json.loads((output / "scope.json").read_text())
+            self.assertEqual(
+                scope, {"scope": "PUBLIC REPLICATION COHORT — NOT SEALED HACKATHON RESULTS"}
+            )
+            # A tracked file is never exempt, even if a later ignore rule matches it.
+            tracked = subprocess.run(
+                ["git", "ls-files", "--error-unmatch", str(path)],
+                cwd=ROOT,
+                capture_output=True,
+            )
+            ignored = subprocess.run(
+                ["git", "check-ignore", str(path)], cwd=ROOT, capture_output=True
+            )
+            self.assertNotEqual(tracked.returncode, 0, "Raw VitalDB input entered Git")
+            self.assertEqual(ignored.returncode, 0, "Raw input is not Git-ignored")
         self.assertFalse(list(ROOT.rglob("*.joblib")))
 
     def test_development_firewall_rejects_heldout_without_IO(self):

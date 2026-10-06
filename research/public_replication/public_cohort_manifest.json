@@ -1,0 +1,41 @@
+{
+  "data_license": "CC BY 4.0",
+  "dataset_doi": "10.13026/czw8-9p62",
+  "manifest_version": 1,
+  "original_selected_model_policy": "fixed recorded configurations; no new selection",
+  "public_metadata_sha256": {
+    "LICENSE.txt": "9a78e7f22742dde9f66ae235ec793ba2212019dc4d0ced75c4da09ced0b35fb2",
+    "SHA256SUMS.txt": "874732d0548b5ba4de2efe851375c4f25f45488a2a19c771e2f9ab0288a5de1d",
+    "clinical_data.csv": "7d6edb471e5eee3fde75e417084240c97bdbf6eff41cbd61e5dace44f1585ecf",
+    "clinical_parameters.csv": "3fd13678a26629df5f1352c2a3fa2951e731d3760b8fa47c06c9ac3fbcef2e35",
+    "track_names.csv": "31c431642f91153461724375c05309d251ea63f206f3aeaed782ea4b9817400c"
+  },
+  "public_vitaldb_case_ids_in_acquisition_order": [
+    3161,
+    3774,
+    1838,
+    3366,
+    4299,
+    6357,
+    3472,
+    4841,
+    2891,
+    2014,
+    898,
+    4429
+  ],
+  "scope": "PUBLIC REPLICATION COHORT \u2014 NOT SEALED HACKATHON RESULTS",
+  "selection": {
+    "function": "intraop.data.cohort_acquisition.candidate_plan",
+    "ordering": "sorted integer public case IDs; numpy.default_rng(42).permutation",
+    "outcome_blind": true,
+    "pilot_prefix": [],
+    "population": "original population_eligibility plus original nonempty aline1 hint",
+    "replacement_on_failure_or_no_anchors": false,
+    "requested_cases": 12,
+    "seed": 42
+  },
+  "source_url": "https://physionet.org/files/vitaldb/1.0.0/",
+  "source_version": "1.0.0",
+  "split_policy": "original 60/15/10/15 largest-remainder subject splitter; seed 42; no episode stratification or pilot pinning; eligible-window subjects only"
+}

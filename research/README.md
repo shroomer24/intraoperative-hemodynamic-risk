@@ -244,3 +244,7 @@ All scientific stages were found; none is labeled an original stage solely on th
 The README's listed counts/AP values agree with the checked artifacts. Important provenance differences are: raw vs calibrated metric status, the 360-second ascertainment requirement despite a 300-second onset horizon, mandatory 60-second rearm, private acquisition/pilot identity, unstratified pinned-subject splitting, and unavailable concrete development model identity. These details are now explicit; the experiment was not changed to simplify them.
 
 **PARTIALLY REPRODUCIBLE**
+
+## Separate public replication capability
+
+A new [Public replication cohort](public_replication/README.md) capability exercises the original causal machinery on a fixed, outcome-blind twelve-case VitalDB subset using only public inputs. It requires none of the private original roster or execution records. Its raw outputs are execution validation only, with no model selection, calibration reuse or headline metrics. This capability does not change the sealed study's **PARTIALLY REPRODUCIBLE** classification.
