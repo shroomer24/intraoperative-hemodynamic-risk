@@ -1,0 +1,49 @@
+/* Argent gunmetal only. Scientific traces, outcome/event styles and values are untouched. */
+:root { --gunmetal-gradient: linear-gradient(135deg,#9aa0aa 0%,#6b7079 18%,#2c2f36 46%,#16181c 54%,#3a3e46 70%,#7a808a 90%,#aab0ba 100%); }
+.static-gunmetal,.paper-surface { position: absolute; inset: 0; display: block; overflow: hidden; pointer-events: none; border-radius: inherit; }
+.static-gunmetal { background: var(--gunmetal-gradient); }
+.paper-surface canvas { position: absolute !important; inset: 0; width: 100% !important; height: 100% !important; display: block; z-index: 1; }
+.metal-tab { position: relative; isolation: isolate; display: inline-flex; border-radius: 20px; }
+.metal-select { display: block; width: 100%; }
+.metal-tab-decoration { position: absolute; inset: 0; overflow: hidden; border-radius: 20px; pointer-events: none; }
+.metal-tab-core { position: absolute; inset: 1px; border-radius: 19px; background: #111317; opacity: 1; transition: opacity 180ms var(--ease); }
+.metal-tab[data-engaged] .metal-tab-core { opacity: .22; }
+.metal-tab-sheen,.mercury-sheen { position: absolute; inset: 0; pointer-events: none; opacity: 0; background: linear-gradient(110deg,transparent 36%,rgba(211,218,228,.30) 50%,transparent 64%); background-size: 250% 100%; background-position: 0 0; transition: background-position 400ms var(--ease),opacity 150ms var(--ease); }
+.metal-tab[data-engaged] .metal-tab-sheen { opacity: .7; background-position: 100% 0; }
+.metal-tab[data-active] { box-shadow: inset 0 0 0 1px #838b98; }
+.metal-tab[data-active] .metal-tab-core { box-shadow: inset 0 -2px 0 #687280; }
+.metal-tab > button,.metal-tab > select { position: relative; z-index: 2; width: 100%; border-radius: 20px; border: 1px solid transparent; background: transparent; }
+.metal-tab > button:hover,.metal-tab > select:hover { background: transparent; border-color: transparent; }
+.metal-tab[data-disabled] { opacity: .42; }
+.metal-tab[data-disabled] .metal-tab-core { background: #111317; opacity: 1; }
+.metal-tab:focus-within { outline: 2px solid #aab0b9; outline-offset: 3px; }
+.metal-tab > :focus-visible { outline: none; }
+.metal-tab > select { appearance: none; padding-right: 44px; background-image: none; }
+.metal-select-chevron { position: absolute; right: 18px; top: 50%; transform: translateY(-50%); pointer-events: none; z-index: 3; color: #b4bac4; }
+.case-controls > .metal-select { flex: 1; min-width: 90px; }
+.case-controls > .metal-button { flex-shrink: 0; }
+.speed-control > .metal-select { width: 84px; }
+.representation-control > .metal-select { margin-top: 6px; }
+.representation-control .metal-select select { margin-top: 0; }
+.compare-panel .metal-tab { display: block; width: 100%; }
+.compare-panel .compare-toggle { padding: 14px 18px; }
+.mercury-switch { position: relative; isolation: isolate; border-radius: 20px; min-height: 42px; overflow: visible; padding: 3px; gap: 4px; }
+.mercury-thumb { position: absolute; top: 3px; left: 3px; bottom: 3px; width: calc(50% - 5px); border-radius: 20px; overflow: hidden; pointer-events: none; transition: transform 260ms var(--ease); }
+.mercury-switch[data-mode="review"] .mercury-thumb { transform: translateX(calc(100% + 4px)); }
+.mercury-core { position: absolute; inset: 1px; border-radius: 19px; background: #1b1e24; opacity: .96; transition: opacity 180ms var(--ease); }
+.mercury-switch:hover .mercury-core,.mercury-switch:focus-within .mercury-core { opacity: .24; }
+.mercury-switch:hover .mercury-sheen,.mercury-switch:focus-within .mercury-sheen { opacity: .5; background-position: 100% 0; }
+.mercury-switch .mode-option { z-index: 2; }
+.mercury-switch .mode-option span { background: transparent; border: 0; border-radius: 20px; padding: 7px 12px; }
+.mercury-switch .mode-option input { z-index: 1; }
+.mercury-switch .mode-option input:checked + span { background: transparent; border: 0; color: var(--text); box-shadow: inset 0 -2px 0 rgba(160,170,184,.25); }
+.mercury-switch .mode-option input:focus-visible + span { outline: 2px solid #aab0b9; outline-offset: 3px; }
+.mercury-switch:active .mercury-thumb { scale: 1.015 .94; }
+.molten-progress { height: 10px; position: relative; margin: 10px 0 12px; border: 1px solid #3b414b; border-radius: 20px; background: #0b0d10; overflow: hidden; }
+.molten-fill { position: absolute; inset: 0; overflow: hidden; border-radius: inherit; pointer-events: none; }
+.molten-unavailable { opacity: .35; }
+@media (max-width: 950px) { .molten-progress { grid-column: 2; grid-row: 3; margin: 8px 0; } }
+@media (prefers-reduced-motion: reduce) { .metal-tab-core,.metal-tab-sheen,.mercury-thumb,.mercury-core,.mercury-sheen { transition: none; } }
+html:has([data-renderer="static"]) .paper-surface { background: var(--gunmetal-gradient); }
+
+html:has([data-metal-reduced]) :is(.metal-tab-core,.metal-tab-sheen,.mercury-thumb,.mercury-core,.mercury-sheen) { transition: none; }

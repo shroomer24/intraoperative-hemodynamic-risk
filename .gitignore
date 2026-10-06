@@ -1,0 +1,57 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+coverage/
+
+# Credentials and environment configuration
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+
+# Local caches, research files and scratch outputs
+.wrangler/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+*.swp
+.vite/
+/work/
+/tmp/
+/private/
+/artifacts/
+/outputs/
+/data/
+*.vital
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+source_crosswalk*
+clinical_data.csv
+metadata.csv
+case_report.csv
+
+# Retained private research export/integration and historical deployment tooling
+/tools/export_replay.py
+/tools/validate_replay_export.py
+/tools/deploy_pages.py
+/tools/deploy_pages.sh
+/tests/export_integrity_test.py
+/tests/export_readonly_test.py
+/tests/export-boundary.test.ts
+/tests/test_release_deploy.py
+/docs/RELEASE.md
+
+# These 22 artifacts were never part of the public site; preserve them locally
+/public/replay-v01/cases/*/anchor-status.json

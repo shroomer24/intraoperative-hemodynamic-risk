@@ -1,0 +1,22 @@
+{
+  "files": {
+    "sha256": {
+      "src/data/casePredictions.ts": "551fc6c1193f9db42f15aa3f62d86e3a6a66ce3e124835d267f59721e7430b30",
+      "src/data/predictionValidation.ts": "917680c6305a47d49e1dc00248865b5865fba6c40294586b8526acaf4893d672",
+      "src/predictions/anchorLookup.ts": "95fd564aa184a62c9ae5bc99f64ddefbaf3a13d6259444097bd4fe02c83b6249",
+      "src/predictions/representations.ts": "94b82c5480d19a5b0bb1ba796d50faa6602be114816ce51c2e58cd26623eb844",
+      "src/predictions/history.ts": "d1937448ddc056de4fe4888c9b1bf8515056d7786e1ee3f6ccc0033ccf703b3a",
+      "src/charts/RiskHistoryPlot.tsx": "cb13723f0a6c7e76d283d671f230941360abce9480b96b179f12d89ba71ef0ac",
+      "src/charts/riskOptions.ts": "240a9fb502f3e51ebec5990bc34277afa574c6738d866ce3ccce394c0d738d2a",
+      "src/App.tsx": "e743e30f974d3ebad3a0c1b7de755eacb0372b2a9e5b6ba6f4217c0ae7a91fd9",
+      "src/data/types.ts": "21abc3028365e12291a3c87875307ff41ed970cf53985d57fc74f6ff74e58b87",
+      "src/data/loader.ts": "59af9afa4133cdf94ca7bbc49d7c0a5185b3dae5e1e7ac833441cfae92a27732",
+      "src/data/assetIntegrity.ts": "7783bd3c0e031b279aaf52908ebe31dd2425608bfd914291c82573eefe17be16",
+      "src/components/RiskPanel.tsx": "3804c57965b74573ba84ac8a567f188142429874342e8a443544a76e88de1f60",
+      "src/components/RiskHistory.tsx": "5314ae5b19b49af07bdc4fef06fd85ea5c9800678e17539ac7ea6e56c688f816",
+      "src/components/PlaybackControls.tsx": "63b34a2a49df44c2e08399c378d8914408071f94a306b3664c7ae2d12eac00ac",
+      "src/styles/charts.css": "4d5186012e4cf816cac859b63b22c975f454c0ac2c7b03c47ec941872b30ef3f",
+      "src/styles/shell.css": "c2d77bfad15c27869266eff97906144d22c2457e1868288ab061808a754f5672"
+    }
+  }
+}

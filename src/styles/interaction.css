@@ -1,0 +1,25 @@
+/* Phase 6.1: gunmetal interactions only; no scientific/event/forecast color changes. */
+.metal-select > .gunmetal-select-trigger { height: 40px; padding: 0 44px 0 12px; text-align: left; color: var(--text); font: inherit; font-size: 13px; cursor: pointer; }
+.gunmetal-select-trigger > span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.speed-control .gunmetal-select-trigger { height: 36px; }
+.gunmetal-listbox { z-index: 100; box-sizing: border-box; padding: 6px; margin: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-color: #4c535e #12151a; scrollbar-width: thin; background: #12151a; color: #eef0f3; border: 1px solid #555e6b; border-radius: 16px; box-shadow: 0 12px 32px rgba(0,0,0,.5),inset 0 1px 0 #303640; }
+.gunmetal-listbox::-webkit-scrollbar { width: 8px; }
+.gunmetal-listbox::-webkit-scrollbar-track { background: #12151a; border-radius: 8px; }
+.gunmetal-listbox::-webkit-scrollbar-thumb { background: #4c535e; border: 2px solid #12151a; border-radius: 8px; }
+.gunmetal-option { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 34px; padding: 8px 10px; border: 1px solid transparent; border-radius: 10px; font-size: 13px; line-height: 1.4; cursor: pointer; user-select: none; }
+.gunmetal-option[data-active] { background: linear-gradient(110deg,#282e38,#1d222a); border-color: #737f90; }
+.gunmetal-option[aria-selected="true"] { background: #252b34; border-color: #515d6e; }
+.gunmetal-option[aria-selected="true"][data-active] { border-color: #96a1b2; }
+.gunmetal-option[aria-disabled="true"] { opacity: .4; cursor: default; background: transparent; border-color: transparent; }
+.gunmetal-selected { color: #bac3d0; width: 12px; flex: 0 0 12px; }
+.gunmetal-group { color: #949dab; font-size: 10px; text-transform: uppercase; letter-spacing: .08em; padding: 12px 10px 6px; }
+.molten-time { position: relative; height: 32px; min-width: 0; touch-action: pan-y; user-select: none; }
+.molten-time-track { position: absolute; left: 8px; right: 8px; top: 11px; height: 10px; border: 1px solid #4a525e; border-radius: 20px; background: #0b0d10; overflow: hidden; pointer-events: none; }
+.molten-time-fill { position: absolute; inset: 0; border-radius: inherit; overflow: hidden; }
+.molten-time-thumb { position: absolute; top: 8px; height: 16px; width: 16px; transform: translateX(-50%); border: 1px solid #b0b9c7; border-radius: 50%; background: var(--gunmetal-gradient); box-shadow: 0 0 0 2px #11151b; pointer-events: none; }
+.molten-time > input[type="range"] { position: absolute; inset: 0; width: 100%; height: 32px; margin: 0; padding: 0; opacity: 0; cursor: ew-resize; touch-action: pan-y; }
+.molten-time:focus-within { outline: 2px solid #aab0b9; outline-offset: 2px; border-radius: 20px; }
+.molten-time:has(input:disabled) { opacity: .35; }
+.chart-scrub-hit { position: absolute; z-index: 3; cursor: ew-resize; touch-action: pan-y; user-select: none; }
+.signal-chart:has(.chart-scrub-hit:hover) .replay-cursor,.signal-chart:has([data-scrubbing]) .replay-cursor { opacity: 1; background: #c1c8d3; }
+.signal-chart:has(.chart-scrub-hit:hover) .replay-cursor::before,.signal-chart:has([data-scrubbing]) .replay-cursor::before { content: ''; position: absolute; left: -3px; top: -2px; bottom: -2px; width: 7px; border-top: 2px solid #a4adbc; border-bottom: 2px solid #a4adbc; }

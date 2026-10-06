@@ -1,0 +1,134 @@
+[
+  {
+    "case_ordinal": "case-001",
+    "procedure": "Anterior resection",
+    "department": "General surgery",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-002",
+    "procedure": "Lung lobectomy",
+    "department": "Thoracic surgery",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-003",
+    "procedure": "Hemicolectomy",
+    "department": "General surgery",
+    "approach": "Open"
+  },
+  {
+    "case_ordinal": "case-004",
+    "procedure": "Debulking surgery",
+    "department": "General surgery",
+    "approach": "Open"
+  },
+  {
+    "case_ordinal": "case-005",
+    "procedure": "Lung wedge resection",
+    "department": "Thoracic surgery",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-006",
+    "procedure": "Total gastrectomy",
+    "department": "General surgery",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-007",
+    "procedure": "Liver transplantation",
+    "department": "General surgery",
+    "approach": "Open"
+  },
+  {
+    "case_ordinal": "case-008",
+    "procedure": "Total hysterectomy",
+    "department": "Gynecology",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-009",
+    "procedure": "Lung lobectomy",
+    "department": "Thoracic surgery",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-010",
+    "procedure": "Liver transplantation",
+    "department": "General surgery",
+    "approach": "Open"
+  },
+  {
+    "case_ordinal": "case-011",
+    "procedure": "Pericardial window operation",
+    "department": "Thoracic surgery",
+    "approach": "Open"
+  },
+  {
+    "case_ordinal": "case-012",
+    "procedure": "Distal gastrectomy",
+    "department": "General surgery",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-013",
+    "procedure": "Exploratory laparotomy",
+    "department": "General surgery",
+    "approach": "Open"
+  },
+  {
+    "case_ordinal": "case-014",
+    "procedure": "Lung lobectomy",
+    "department": "Thoracic surgery",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-015",
+    "procedure": "Distal gastrectomy",
+    "department": "General surgery",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-016",
+    "procedure": "Anterior resection",
+    "department": "General surgery",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-017",
+    "procedure": "Lung lobectomy",
+    "department": "Thoracic surgery",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-018",
+    "procedure": "Aortorenal bypass",
+    "department": "General surgery",
+    "approach": "Open"
+  },
+  {
+    "case_ordinal": "case-019",
+    "procedure": "Metastasectomy",
+    "department": "Thoracic surgery",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-020",
+    "procedure": "Hemihepatectomy",
+    "department": "General surgery",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-021",
+    "procedure": "Lung lobectomy",
+    "department": "Thoracic surgery",
+    "approach": "Videoscopic"
+  },
+  {
+    "case_ordinal": "case-022",
+    "procedure": "Subtotal gastrectomy",
+    "department": "General surgery",
+    "approach": "Open"
+  }
+]

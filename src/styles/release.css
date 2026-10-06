@@ -1,0 +1,29 @@
+/* Release polish only: retain shader uniforms, temporal geometry and scientific chart configuration. */
+.metal-tab-decoration, .mercury-thumb, .molten-fill .paper-surface, .molten-time-fill .paper-surface { filter: grayscale(1); }
+.metal-tab[data-engaged] .metal-tab-core { opacity: .76; }
+.mercury-switch:hover .mercury-core, .mercury-switch:focus-within .mercury-core { opacity: .9; }
+.demo-unavailable { color: var(--secondary); font-size: 12px; margin: 12px 0; }
+@media (max-width: 600px) {
+  .risk-body { display: block; }
+  .risk-readout { text-align: left; margin: 14px 0 8px; }
+  .molten-progress { margin: 10px 0 12px; }
+  .representation-control { margin-top: 16px; }
+  .risk-context dd, .forecast-outcome dd { min-width: 0; }
+  .metal-select > .gunmetal-select-trigger { height: 44px; }
+  .transport-controls .button { min-height: 44px; }
+  .replay-timeline { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .replay-timeline > label, .replay-timeline > .molten-time, .replay-timeline > output { grid-column: 1; }
+  .replay-timeline > output { justify-self: end; }
+}
+
+/* Range controls remain touchable on tablets as well as phones. */
+.molten-time, .molten-time > input[type="range"] { height: 44px; }
+.molten-time-track { top: 17px; }
+.molten-time-thumb { top: 14px; }
+/* Paper canvases have their own stacking level; keep the dark core above them and text clear. */
+.metal-tab-core, .mercury-core { z-index: 2; }
+.metal-tab-sheen, .mercury-sheen { z-index: 3; }
+.metal-tab[data-engaged] .metal-tab-core,
+.compare-panel .metal-tab[data-engaged] .metal-tab-core { opacity: .93; }
+.mercury-switch:hover .mercury-core, .mercury-switch:focus-within .mercury-core { opacity: .96; }
+.metal-tab[data-engaged] .metal-tab-sheen { opacity: .15; }

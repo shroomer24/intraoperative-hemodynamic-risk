@@ -1,0 +1,9 @@
+.workspace-heading > .workspace-case { display: block; flex: 1; min-width: 0; }
+.workspace-case-heading { display: flex; align-items: center; gap: 16px; }
+.case-context { margin: 6px 0 0; color: var(--secondary); font-size: 12px; line-height: 1.5; max-width: 100%; overflow-wrap: anywhere; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+@media (max-width: 600px) {
+  .workspace-heading { align-items: flex-start; gap: 8px; }
+  .workspace-heading > .workspace-case { flex-basis: 100%; }
+  .workspace-heading .operation-duration { margin-left: auto; }
+  .workspace-case-heading { gap: 12px; }
+}
