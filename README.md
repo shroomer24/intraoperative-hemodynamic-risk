@@ -256,3 +256,13 @@ Third-party software, frontend dependencies, VitalDB/PhysioNet data, and TabPFN/
 Recovered scientific code, frozen schemas/configurations, and provenance are available under [`research/`](research/). See [`research/README.md`](research/README.md) for validated steps, environment setup, and reproduction commands.
 
 Exact reproduction of the sealed experiment remains partial: private cohort/execution inputs are excluded, and identical hosted TabPFN responses are not guaranteed. The scientific and presentation pipelines remain separate; the recovered research source is now included in this repository.
+
+## Interactive demo walkthrough
+
+If you're reviewing this project for the hackathon, I made a short step-by-step walkthrough for the live demo:
+
+**[Follow the interactive demo walkthrough →](docs/DEMO_SCRIPT.md)**
+
+It walks through the held-out Case 019 replay, what the TabPFN prediction means, Live Replay vs Review, the model comparisons, and the main results.
+
+**Live demo:** https://intraop-hemodynamic-risk.pages.dev/demo
