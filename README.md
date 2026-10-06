@@ -4,9 +4,11 @@
 
 **Live demo:** https://intraop-hemodynamic-risk.pages.dev/demo
 
-This started with a pretty simple question: **can a tabular foundation model make useful near-term predictions from continuous operating-room data?**
+This started with a  simple question: **Can a tabular foundation model make useful near-term predictions from continuous operating-room data?**
 
-The raw data are not tabular. They are continuous physiologic signals collected during surgery. I built a causal feature pipeline that turns the previous five minutes of those signals into one structured patient-state row, then compared TabPFN-3.5 against simpler baselines and XGBoost.
+I really wanted to explore this because my brother is a MS4 at McGovern Medical School and he wants to get into General Surgery. We had always chatted over phone calls about the gnarly rotations he used to go through where shifts used to easily reach 14 hours long back to back. What amazed me was his ability to be able to intake so much information at once, and be able to act on a whim based on all the calculations he had ran in his head. This left me reflecting on if I could make something that streams patient data into a layer where the state of the patient could be analyzed on in real time and provide valuable insight as a helper tool for doctors.
+
+The raw data aren't tabular. They are continuous physiologic signals collected during surgery. I built a causal feature pipeline that turns the previous five minutes of those signals into one structured patient-state row, then compared TabPFN-3.5 against simpler baselines and XGBoost.
 
 The main thing I cared about was keeping the experiment honest. Every prediction only uses information that would have been available at that point in the surgery. The held-out patients stay completely separate from training, and the frontend replays frozen test predictions instead of quietly recomputing them.
 
@@ -53,11 +55,11 @@ The six physiologic channels used in the full feature set are:
 
 The frontend mainly shows MAP, heart rate, SpO₂, and ETCO₂ because those are the easiest signals to follow during a replay. The model itself uses **74 engineered predictors across all six channels**.
 
-Those predictors describe things like current values, one- and five-minute summaries, recent slopes, variability, missingness, measurement age, and recent MAP behavior.
+Those predictors describe things like current values, one and five minute summaries, recent slopes, variability, measurement age, and recent MAP behavior.
 
 ## Why the causal setup matters
 
-The harder part of this project was not just getting a model to output a probability. It was making sure that probability was based only on information that would have existed at that exact time.
+The difficult part of this project was not just getting a model to output a probability. It was making sure that probability was based only on information that would have existed at that exact time.
 
 For a prediction made at time `t`:
 
@@ -71,7 +73,7 @@ The frontend follows the same idea. In **Live Replay**, future physiology and fu
 
 ## Data
 
-I used **VitalDB v1.0.0**, an open perioperative dataset containing high-resolution physiologic data from surgical cases.
+I used **VitalDB v1.0.0**, an open perioperative dataset containing high quality physiologic data from surgical cases.
 
 Final study cohort:
 
@@ -91,13 +93,13 @@ Across the full cohort, the frozen dataset contains:
 - **247 evaluable episodes**
 - about **477.7 monitored hours**
 
-The held-out test set contains **3,146 prediction windows**, including **116 positive windows**.
+The held out test set contains **3,146 prediction windows**, including **116 positive windows**.
 
-The split is patient-disjoint, meaning a patient cannot contribute windows to both training and test.
+The split is patient-disjoint. This basically means a patient can't contribute windows to both training and test.
 
 ## Models
 
-I did not want to compare TabPFN against weak baselines, so the final comparison includes:
+I didn't want to compare TabPFN against weak baselines, so the final comparison includes:
 
 1. training prevalence
 2. current MAP
@@ -107,13 +109,13 @@ I did not want to compare TabPFN against weak baselines, so the final comparison
 6. MAP-only TabPFN-3.5
 7. full-feature TabPFN-3.5
 
-The MAP-only comparison is useful because it asks whether the model is doing more than reacting to recent blood pressure. The full-feature models then test whether the broader physiologic state adds useful information.
+The MAP-only comparison is useful, because it asks whether the model is doing more than reacting to recent blood pressure. The full feature models then test whether the broader physiologic state adds useful information.
 
 ## Evaluation
 
 The primary metric is **Average Precision (AP)**.
 
-That matters because the held-out test set is imbalanced: only 116 of 3,146 eligible windows are positive. A model could get high raw accuracy by predicting "no event" most of the time, so accuracy is not the main metric here.
+That matters because the held-out test set is imbalanced: only 116 of 3,146 eligible windows are positive. A model could get high raw accuracy by predicting "no event" most of the time, so accuracy is not the main metric to worry over.
 
 Sealed held-out AP:
 
@@ -123,7 +125,7 @@ Sealed held-out AP:
 | TabPFN-3.5, MAP only | **0.1839** |
 | TabPFN-3.5, full physiology | **0.1740** |
 
-XGBoost had the best AP on this held-out cohort. I kept that result as-is rather than tuning around it. The goal of the project was not to force a TabPFN win; it was to test whether a tabular foundation model could work on a causal representation of continuous perioperative data and compare it fairly against strong conventional baselines.
+XGBoost had the best AP on this held-out cohort. I kept that result as-is rather than tuning aorund it and trying to milk the other models. As stated in the rules and following what any sensible person would do, my goal wasn't to force a TabPFN win; it was to test whether a tabular foundation model could work on a causal representation of continuous perioperative data and compare it fairly against strong conventional baselines.
 
 ## Demo
 
@@ -131,7 +133,7 @@ The public app is a **historical replay**, not a live clinical system.
 
 **Demo:** https://intraop-hemodynamic-risk.pages.dev/demo
 
-The curated demo opens on **Case 019**, a videoscopic thoracic metastasectomy. At the selected retained forecast anchor, the full-physiology TabPFN model shows a **30.4% calibrated probability** of a new sustained hypotensive episode beginning within the next five minutes.
+The curated demo opens on **Case 019**, a videoscopic thoracic metastasectomy. At the selected retained forecast anchor, the full physiology TabPFN model shows a **30.4% calibrated probability** of a new sustained hypotensive episode beginning within the next five minutes.
 
 From there you can:
 
@@ -198,7 +200,7 @@ docs/                  # demo/release notes
 release/               # static release assets and headers
 ```
 
-The scientific training/evaluation pipeline was kept separate from the presentation app so UI work could not silently retrain models or change the sealed test results.
+The scientific training/evaluation pipeline was kept separate from the presentation so any UI work could not silently retrain models or mess with the sealed test results.
 
 ## Reproducibility and guardrails
 
@@ -217,7 +219,7 @@ The final public release was also checked across desktop, tablet, and mobile lay
 
 ## Limitations
 
-This is an **exploratory retrospective research prototype**, not a clinically validated medical device.
+This is an **exploratory retrospective research prototype**, not a clinically validated medical device tool.
 
 Important limitations:
 
