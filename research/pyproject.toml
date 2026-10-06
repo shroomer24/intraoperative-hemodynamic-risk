@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intraop-prediction"
+version = "0.1.0"
+description = "Research scaffold for patient-grouped intraoperative prediction"
+readme = "README.md"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+    "numpy>=1.26,<3",
+    "pandas>=2.2,<4",
+    "scikit-learn>=1.4,<2",
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.9,<1"]
+notebooks = ["jupyterlab>=4,<5"]
+vitaldb = ["vitaldb==1.7.2"]
+audits = ["matplotlib>=3.9,<4"]
+
+[project.scripts]
+intraop = "intraop.cli:main"
+
+# Map the requested src/data, src/features, ... tree to one namespaced package.
+[tool.setuptools]
+package-dir = { intraop = "src" }
+packages = [
+    "intraop", "intraop.data", "intraop.features", "intraop.models",
+    "intraop.evaluation", "intraop.inference",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["intraop"]

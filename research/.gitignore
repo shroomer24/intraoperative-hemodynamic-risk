@@ -1,0 +1,8 @@
+# Runtime inputs/results remain local; source code under artifacts is deliberate.
+/data/
+/private/
+/outputs/
+/public/
+/.venv*/
+/replication/
+*.egg-info/

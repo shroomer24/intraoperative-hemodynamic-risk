@@ -1,0 +1,31 @@
+{
+  "method": "Platt_logit_logistic",
+  "models": [
+    "logistic_map",
+    "logistic_full",
+    "xgboost",
+    "tabpfn_map",
+    "tabpfn_full"
+  ],
+  "input": "logit(clip(raw_probability, 1e-6, 1-1e-6))",
+  "epsilon": 1e-06,
+  "parameters": {
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "tol": 0.0001,
+    "fit_intercept": true,
+    "class_weight": null,
+    "random_state": 42
+  },
+  "fit_partition": "calibration",
+  "algorithm_comparison": false,
+  "probability_outputs": [
+    "raw",
+    "calibrated"
+  ],
+  "prevalence": "fixed training prevalence; no recalibration",
+  "current_map": "-map_latest; AP/AUROC only; no probability transform",
+  "model_configuration_changes_allowed": false,
+  "reliability_bins": 10
+}

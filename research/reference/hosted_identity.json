@@ -1,0 +1,40 @@
+{
+  "status": "PUBLIC_SAFE_PROJECTION",
+  "constructor": {
+    "model_path": "v3.5_default",
+    "random_state": 42
+  },
+  "client_version": "0.6.1",
+  "test_checkpoint_identity": {
+    "tabpfn_map": {
+      "model_path": "/app/tabpfn_models/tabpfn-v3.5-20260909.safetensors",
+      "billing_model_version": "v3.5",
+      "execution_mode": "standard",
+      "test_set_num_rows": 3146,
+      "test_set_num_cols": 18,
+      "classes": [
+        0,
+        1
+      ],
+      "random_state": 42,
+      "balance_probabilities": false,
+      "ignore_pretraining_limits": false
+    },
+    "tabpfn_full": {
+      "model_path": "/app/tabpfn_models/tabpfn-v3.5-20260909.safetensors",
+      "billing_model_version": "v3.5",
+      "execution_mode": "standard",
+      "test_set_num_rows": 3146,
+      "test_set_num_cols": 74,
+      "classes": [
+        0,
+        1
+      ],
+      "random_state": 42,
+      "balance_probabilities": false,
+      "ignore_pretraining_limits": false
+    }
+  },
+  "development_concrete_identity": "UNAVAILABLE; exact checkpoint continuity with development not proven",
+  "provider_alias_reproducibility": "Hosted v3.5_default is server-resolved. Future exact hosted predictions are not guaranteed."
+}

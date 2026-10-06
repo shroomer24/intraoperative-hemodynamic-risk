@@ -1,0 +1,26 @@
+{
+  "primary_metric": "average_precision",
+  "secondary_metrics": [
+    "auroc",
+    "brier_score",
+    "log_loss",
+    "reliability_10_equal_width_bins"
+  ],
+  "bootstrap_replicates": 1000,
+  "bootstrap_unit": "subject",
+  "bootstrap_seed": 42,
+  "interval": [
+    2.5,
+    97.5
+  ],
+  "resampling": "subjects with replacement; all windows including multiplicity",
+  "single_class_replicate": "AP and AUROC undefined; omit per metric and report valid counts",
+  "current_map_metrics": [
+    "average_precision",
+    "auroc"
+  ],
+  "raw_probabilities_primary": true,
+  "calibrated_probabilities_secondary": true,
+  "automatic_rerun": false,
+  "optimization_after_lock": false
+}

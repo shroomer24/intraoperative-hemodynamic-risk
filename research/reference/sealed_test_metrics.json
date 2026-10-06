@@ -1,0 +1,119 @@
+{
+  "prevalence/raw": {
+    "windows": 3146,
+    "positives": 116,
+    "prevalence": 0.036872218690400506,
+    "average_precision": 0.036872218690400506,
+    "auroc": 0.5,
+    "log_loss": 0.15789521967765077,
+    "brier_score": 0.0355141887344106,
+    "probability_output": true
+  },
+  "current_map/raw": {
+    "windows": 3146,
+    "positives": 116,
+    "average_precision": 0.15043288776568348,
+    "auroc": 0.7711391828838056,
+    "probability_output": false
+  },
+  "logistic_map/raw": {
+    "windows": 3146,
+    "positives": 116,
+    "prevalence": 0.036872218690400506,
+    "average_precision": 0.13311996920967595,
+    "auroc": 0.7758762945260044,
+    "log_loss": 0.14623244114545722,
+    "brier_score": 0.03483113169127803,
+    "probability_output": true
+  },
+  "logistic_map/calibrated": {
+    "windows": 3146,
+    "positives": 116,
+    "prevalence": 0.036872218690400506,
+    "average_precision": 0.13311996920967595,
+    "auroc": 0.7758762945260044,
+    "log_loss": 0.14297138965114314,
+    "brier_score": 0.0342064061146006,
+    "probability_output": true
+  },
+  "logistic_full/raw": {
+    "windows": 3146,
+    "positives": 116,
+    "prevalence": 0.036872218690400506,
+    "average_precision": 0.15256027166940248,
+    "auroc": 0.7857317628314555,
+    "log_loss": 0.14816940464684902,
+    "brier_score": 0.03456720405410572,
+    "probability_output": true
+  },
+  "logistic_full/calibrated": {
+    "windows": 3146,
+    "positives": 116,
+    "prevalence": 0.036872218690400506,
+    "average_precision": 0.15256027166940245,
+    "auroc": 0.7857317628314555,
+    "log_loss": 0.1404021830812086,
+    "brier_score": 0.03371069204566648,
+    "probability_output": true
+  },
+  "xgboost/raw": {
+    "windows": 3146,
+    "positives": 116,
+    "prevalence": 0.036872218690400506,
+    "average_precision": 0.18578874506861046,
+    "auroc": 0.8290798907476954,
+    "log_loss": 0.13064201367693773,
+    "brier_score": 0.032919324082956856,
+    "probability_output": true
+  },
+  "xgboost/calibrated": {
+    "windows": 3146,
+    "positives": 116,
+    "prevalence": 0.036872218690400506,
+    "average_precision": 0.18578874506861046,
+    "auroc": 0.8290798907476954,
+    "log_loss": 0.13045898131939612,
+    "brier_score": 0.0329461854268817,
+    "probability_output": true
+  },
+  "tabpfn_map/raw": {
+    "windows": 3146,
+    "positives": 116,
+    "prevalence": 0.036872218690400506,
+    "average_precision": 0.18388817763547272,
+    "auroc": 0.8229742801866392,
+    "log_loss": 0.13733563208951924,
+    "brier_score": 0.033701699117158916,
+    "probability_output": true
+  },
+  "tabpfn_map/calibrated": {
+    "windows": 3146,
+    "positives": 116,
+    "prevalence": 0.036872218690400506,
+    "average_precision": 0.18388817763547272,
+    "auroc": 0.8229742801866392,
+    "log_loss": 0.13159472291240534,
+    "brier_score": 0.03291857121057066,
+    "probability_output": true
+  },
+  "tabpfn_full/raw": {
+    "windows": 3146,
+    "positives": 116,
+    "prevalence": 0.036872218690400506,
+    "average_precision": 0.17397947060604657,
+    "auroc": 0.7966399226129509,
+    "log_loss": 0.13744737987743846,
+    "brier_score": 0.033528163359571206,
+    "probability_output": true
+  },
+  "tabpfn_full/calibrated": {
+    "windows": 3146,
+    "positives": 116,
+    "prevalence": 0.036872218690400506,
+    "average_precision": 0.17397947060604657,
+    "auroc": 0.7966399226129509,
+    "log_loss": 0.13732363036457557,
+    "brier_score": 0.033248120338978136,
+    "probability_output": true
+  }
+}

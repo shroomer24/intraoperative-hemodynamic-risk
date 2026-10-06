@@ -1,0 +1,20 @@
+# The VitalDB v0.1 pipeline freezes label/hold constants in src/data/protocol.py.
+# These infrastructure fields describe its input schema; they do not override labels.
+seed = 42
+log_level = "INFO"
+
+[paths]
+raw = "data/raw"
+interim = "data/interim"
+processed = "data/processed"
+artifacts = "artifacts"
+
+[dataset]
+case_id_column = "case_id"
+subject_id_column = "subject_id"
+time_seconds_column = "time_seconds"
+signal_columns = ["map", "sbp", "dbp", "hr", "spo2", "etco2"]
+
+[windows]
+lookback_seconds = 300
+stride_seconds = 60

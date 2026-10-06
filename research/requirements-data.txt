@@ -1,0 +1,7 @@
+# Recorded cohort runtime; direct pins, not a complete transitive lock.
+numpy==2.4.6
+pandas==2.3.3
+scikit-learn==1.9.0
+vitaldb==1.7.2
+wfdb==4.3.1
+matplotlib==3.11.2

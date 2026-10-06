@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "one frozen TRAINING case, independently rebuilt by the published byte-identical reader/processing/labels/features",
+  "eligible_anchors_compared": 82,
+  "feature_columns": 74,
+  "labels_exact": true,
+  "anchor_times_exact": true,
+  "episode_onsets_exact": true,
+  "episode_evaluability_exact": true,
+  "features_match": true,
+  "rtol": 1e-12,
+  "atol": 1e-10,
+  "NaNs_equal": true,
+  "subject_partition": "training",
+  "patient_identifiers_retained": false,
+  "calibration_or_test_waveforms_loaded": false,
+  "fit_calls": 0,
+  "hosted_requests": 0
+}

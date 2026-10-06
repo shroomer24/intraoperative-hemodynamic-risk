@@ -55,3 +55,10 @@ case_report.csv
 
 # These 22 artifacts were never part of the public site; preserve them locally
 /public/replay-v01/cases/*/anchor-status.json
+
+# Scientific replication inputs and generated outputs
+/research/data/
+/research/private/
+/research/outputs/
+/research/public/
+/research/replication/

@@ -1,0 +1,41 @@
+{
+  "status": "verified against canonical local track dictionary",
+  "tracks": {
+    "Solar8000/ART_MBP": [
+      {
+        "Type/Hz": "N",
+        "Unit": "mmHg"
+      }
+    ],
+    "Solar8000/ART_SBP": [
+      {
+        "Type/Hz": "N",
+        "Unit": "mmHg"
+      }
+    ],
+    "Solar8000/ART_DBP": [
+      {
+        "Type/Hz": "N",
+        "Unit": "mmHg"
+      }
+    ],
+    "Solar8000/HR": [
+      {
+        "Type/Hz": "N",
+        "Unit": "/min"
+      }
+    ],
+    "Solar8000/PLETH_SPO2": [
+      {
+        "Type/Hz": "N",
+        "Unit": "%"
+      }
+    ],
+    "Solar8000/ETCO2": [
+      {
+        "Type/Hz": "N",
+        "Unit": "mmHg"
+      }
+    ]
+  }
+}

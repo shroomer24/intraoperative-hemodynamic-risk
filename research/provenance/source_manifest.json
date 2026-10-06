@@ -1,0 +1,1123 @@
+{
+  "scope": "Recovered originals and explicitly marked publication adaptations",
+  "files": {
+    "src/__init__.py": {
+      "original_relative_path": "src/__init__.py",
+      "original_sha256": "e58efe319d98c631ddd660ed510c71eb1325317c2fbdecbcede995af1a7da26c",
+      "published_sha256": "e58efe319d98c631ddd660ed510c71eb1325317c2fbdecbcede995af1a7da26c",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/cli.py": {
+      "original_relative_path": "src/cli.py",
+      "original_sha256": "cef97d15774737432954f6ec91a8bbfa8378737235cfba129d5b5c79b5dc74ce",
+      "published_sha256": "cef97d15774737432954f6ec91a8bbfa8378737235cfba129d5b5c79b5dc74ce",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/config.py": {
+      "original_relative_path": "src/config.py",
+      "original_sha256": "4840ac4b27a2f866879db255d6e3a04991ea23e1dc8c3236c7f1dc5bc2094f2f",
+      "published_sha256": "4840ac4b27a2f866879db255d6e3a04991ea23e1dc8c3236c7f1dc5bc2094f2f",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/data/__init__.py": {
+      "original_relative_path": "src/data/__init__.py",
+      "original_sha256": "100f311a5d223782647a988ab36bd9bd245764d36ed43afcafd04b85c1b02eee",
+      "published_sha256": "100f311a5d223782647a988ab36bd9bd245764d36ed43afcafd04b85c1b02eee",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/data/acquisition.py": {
+      "original_relative_path": "src/data/acquisition.py",
+      "original_sha256": "ebde21e177b4a33579714eadf76912e913068ed6b9ca2cbd0bb07567c900871e",
+      "published_sha256": "ebde21e177b4a33579714eadf76912e913068ed6b9ca2cbd0bb07567c900871e",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/data/audits.py": {
+      "original_relative_path": "src/data/audits.py",
+      "original_sha256": "c348e0732db4f65f82d2e9d1b38b99313851e4d65e6bbe6d8a2ed1a82f11ea19",
+      "published_sha256": "c348e0732db4f65f82d2e9d1b38b99313851e4d65e6bbe6d8a2ed1a82f11ea19",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/data/cohort.py": {
+      "original_relative_path": "src/data/cohort.py",
+      "original_sha256": "f950f2870f094e295fdc5e45ee975ea7d702bbb1d02065130cec39be5270b31e",
+      "published_sha256": "f950f2870f094e295fdc5e45ee975ea7d702bbb1d02065130cec39be5270b31e",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/data/cohort_acquisition.py": {
+      "original_relative_path": "src/data/cohort_acquisition.py",
+      "original_sha256": "3008e0e1668136b417ea4521f908220b4ba86569b5ef144d3e9d9a275873703e",
+      "published_sha256": "3008e0e1668136b417ea4521f908220b4ba86569b5ef144d3e9d9a275873703e",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/data/datasets.py": {
+      "original_relative_path": "src/data/datasets.py",
+      "original_sha256": "c0792229ec4140969643ccf3ae6e659af3b44a2432ea836b576dc38566556066",
+      "published_sha256": "c0792229ec4140969643ccf3ae6e659af3b44a2432ea836b576dc38566556066",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/data/labels.py": {
+      "original_relative_path": "src/data/labels.py",
+      "original_sha256": "4aad84fdef55b52df7954e5fb4f042a756202ad16e764f59bf9cd26612eb8aec",
+      "published_sha256": "4aad84fdef55b52df7954e5fb4f042a756202ad16e764f59bf9cd26612eb8aec",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/data/modeling.py": {
+      "original_relative_path": "src/data/modeling.py",
+      "original_sha256": "bcd57ef9874e41690e42636067cc6456d6658bbb146e38bf4bf487b2f7be2d45",
+      "published_sha256": "bcd57ef9874e41690e42636067cc6456d6658bbb146e38bf4bf487b2f7be2d45",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/data/pipeline.py": {
+      "original_relative_path": "src/data/pipeline.py",
+      "original_sha256": "0ffa4e918a5421047bec0a9bc5ad9a3a1eaa2a96a0b340873f1c1b7d8533887e",
+      "published_sha256": "0ffa4e918a5421047bec0a9bc5ad9a3a1eaa2a96a0b340873f1c1b7d8533887e",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/data/preprocessing.py": {
+      "original_relative_path": "src/data/preprocessing.py",
+      "original_sha256": "b38c076876366e6337d687b95a66ce9f09ee8623337338f17bd256a3ada8afdf",
+      "published_sha256": "b38c076876366e6337d687b95a66ce9f09ee8623337338f17bd256a3ada8afdf",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/data/protocol.py": {
+      "original_relative_path": "src/data/protocol.py",
+      "original_sha256": "0ce30fc2deb158ea8b32b0a748f631b685bba0601afff689d132efb3f4c87a04",
+      "published_sha256": "0ce30fc2deb158ea8b32b0a748f631b685bba0601afff689d132efb3f4c87a04",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/data/vitaldb_reader.py": {
+      "original_relative_path": "src/data/vitaldb_reader.py",
+      "original_sha256": "be7da476f92c50bc3721897afd6cd0c90221f7982356d36cd83d79ab17c99b1b",
+      "published_sha256": "be7da476f92c50bc3721897afd6cd0c90221f7982356d36cd83d79ab17c99b1b",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/evaluation/__init__.py": {
+      "original_relative_path": "src/evaluation/__init__.py",
+      "original_sha256": "823d713a8cd3bd15cb1f8368aeee3270cd6cf2a6e67cf4d60d33646bfef83b5b",
+      "published_sha256": "823d713a8cd3bd15cb1f8368aeee3270cd6cf2a6e67cf4d60d33646bfef83b5b",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/evaluation/calibration.py": {
+      "original_relative_path": "src/evaluation/calibration.py",
+      "original_sha256": "fbf357c24509032bbe8d76fc6307fb60b5de02183815bf9054be8ab77de0393d",
+      "published_sha256": "fbf357c24509032bbe8d76fc6307fb60b5de02183815bf9054be8ab77de0393d",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/evaluation/development.py": {
+      "original_relative_path": "src/evaluation/development.py",
+      "original_sha256": "89864642183eae42900036ef250ee10a83072d2c0d3ec612a2878b49f9164724",
+      "published_sha256": "89864642183eae42900036ef250ee10a83072d2c0d3ec612a2878b49f9164724",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/evaluation/locked_execution.py": {
+      "original_relative_path": "src/evaluation/locked_execution.py",
+      "original_sha256": "4c2a2357d29f8e46a1da999bd6af6ba78cf9b65857d2530464ef765f4646b75c",
+      "published_sha256": "4c2a2357d29f8e46a1da999bd6af6ba78cf9b65857d2530464ef765f4646b75c",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/evaluation/metrics.py": {
+      "original_relative_path": "src/evaluation/metrics.py",
+      "original_sha256": "778829709f9b68fe066c457238e09fa5692174f7f423894518da8932d2492c9e",
+      "published_sha256": "778829709f9b68fe066c457238e09fa5692174f7f423894518da8932d2492c9e",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/evaluation/result_checkpoint.py": {
+      "original_relative_path": "src/evaluation/result_checkpoint.py",
+      "original_sha256": "2b0b92abfe822bc71b95d4446b5ee49d395ceb612bfe9bf10f96bbd505dcf9bb",
+      "published_sha256": "2b0b92abfe822bc71b95d4446b5ee49d395ceb612bfe9bf10f96bbd505dcf9bb",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/evaluation/secure_errors.py": {
+      "original_relative_path": "src/evaluation/secure_errors.py",
+      "original_sha256": "c4c1e5056c555de400c860296c81bc14c345df44cd05aaeefa1edfda9edae734",
+      "published_sha256": "c4c1e5056c555de400c860296c81bc14c345df44cd05aaeefa1edfda9edae734",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/evaluation/splits.py": {
+      "original_relative_path": "src/evaluation/splits.py",
+      "original_sha256": "447a3330ab9e665091f39b056a75eed8e7a97d7d01b6c7f82bc12b1c1f65899c",
+      "published_sha256": "447a3330ab9e665091f39b056a75eed8e7a97d7d01b6c7f82bc12b1c1f65899c",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/evaluation/subject_splits.py": {
+      "original_relative_path": "src/evaluation/subject_splits.py",
+      "original_sha256": "b62f44921e10acf315b0a64001ac79e60356d13f85979de65cacf301f894845b",
+      "published_sha256": "b62f44921e10acf315b0a64001ac79e60356d13f85979de65cacf301f894845b",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/features/__init__.py": {
+      "original_relative_path": "src/features/__init__.py",
+      "original_sha256": "ffae315b426a1e1eadc126f59cead705f2bb7a554a2ed4cb11b12ed8ebea2051",
+      "published_sha256": "ffae315b426a1e1eadc126f59cead705f2bb7a554a2ed4cb11b12ed8ebea2051",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/features/base.py": {
+      "original_relative_path": "src/features/base.py",
+      "original_sha256": "07c9eb87da1b9b57dcd58b1d20b209f575bdb2d75c86b2b27975e995073c542c",
+      "published_sha256": "07c9eb87da1b9b57dcd58b1d20b209f575bdb2d75c86b2b27975e995073c542c",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/features/core.py": {
+      "original_relative_path": "src/features/core.py",
+      "original_sha256": "005bd5f69670163e3428def28accb3036bdad347a1e820a116e7df49bcc3d523",
+      "published_sha256": "005bd5f69670163e3428def28accb3036bdad347a1e820a116e7df49bcc3d523",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/inference/__init__.py": {
+      "original_relative_path": "src/inference/__init__.py",
+      "original_sha256": "791a3f492e70827710b7d40087fb0c7090cc263e9ea61f7f5390c28beb5d8011",
+      "published_sha256": "791a3f492e70827710b7d40087fb0c7090cc263e9ea61f7f5390c28beb5d8011",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/inference/base.py": {
+      "original_relative_path": "src/inference/base.py",
+      "original_sha256": "497f81900e81cd27ec5d69cdf810919503737a0e2fed0273bde0833dd3e83251",
+      "published_sha256": "497f81900e81cd27ec5d69cdf810919503737a0e2fed0273bde0833dd3e83251",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/logging.py": {
+      "original_relative_path": "src/logging.py",
+      "original_sha256": "e81c0e1aa86bcd0e70a49f22a1884915359f6676d22d44c766efd5008be2e31e",
+      "published_sha256": "e81c0e1aa86bcd0e70a49f22a1884915359f6676d22d44c766efd5008be2e31e",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/models/__init__.py": {
+      "original_relative_path": "src/models/__init__.py",
+      "original_sha256": "98734734c946f8ee7fdcbe9a9ee3368d659ccf5b12bfee501f825af07d99a546",
+      "published_sha256": "98734734c946f8ee7fdcbe9a9ee3368d659ccf5b12bfee501f825af07d99a546",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/models/base.py": {
+      "original_relative_path": "src/models/base.py",
+      "original_sha256": "a765ed252d2327a4b6cefe379c034b9af8afc4d6313c23c3c8bd44531d781c6a",
+      "published_sha256": "a765ed252d2327a4b6cefe379c034b9af8afc4d6313c23c3c8bd44531d781c6a",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/models/benchmarks.py": {
+      "original_relative_path": "src/models/benchmarks.py",
+      "original_sha256": "e195e578a44e114b3fb86044125d9aca58be1aced2bb8e17dd8138d65a099a8e",
+      "published_sha256": "e195e578a44e114b3fb86044125d9aca58be1aced2bb8e17dd8138d65a099a8e",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "src/reproducibility.py": {
+      "original_relative_path": "src/reproducibility.py",
+      "original_sha256": "0a89c9f74e57bf0df8c7f52104d2b1a5ca4041312bb6541e9cd8d4670bd20e83",
+      "published_sha256": "0a89c9f74e57bf0df8c7f52104d2b1a5ca4041312bb6541e9cd8d4670bd20e83",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": true,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "scripts/acquire_vitaldb_subset.py": {
+      "original_relative_path": "scripts/acquire_vitaldb_subset.py",
+      "original_sha256": "86a03b55584a2ca03fb13e8da05b2fdcbf92546c937dd83717b5085f8c01d25f",
+      "published_sha256": "86a03b55584a2ca03fb13e8da05b2fdcbf92546c937dd83717b5085f8c01d25f",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "scripts/check_environment.py": {
+      "original_relative_path": "scripts/check_environment.py",
+      "original_sha256": "a437dad8a1c09cc658fde19b91ac14f83931935208720b35317ba133685007dc",
+      "published_sha256": "a437dad8a1c09cc658fde19b91ac14f83931935208720b35317ba133685007dc",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "scripts/create_subject_split.py": {
+      "original_relative_path": "scripts/create_subject_split.py",
+      "original_sha256": "bdd649efea6dda35a23641432b56706d6a69c8fae4caf33dd0cbd576f5451d30",
+      "published_sha256": "bdd649efea6dda35a23641432b56706d6a69c8fae4caf33dd0cbd576f5451d30",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "scripts/generate_vitaldb_cohort.py": {
+      "original_relative_path": "scripts/generate_vitaldb_cohort.py",
+      "original_sha256": "e00b8a60d32ef89888e414f09368eaafd185a6cc0eec7069669ec9cf545011a5",
+      "published_sha256": "e00b8a60d32ef89888e414f09368eaafd185a6cc0eec7069669ec9cf545011a5",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "scripts/generate_vitaldb_pilot.py": {
+      "original_relative_path": "scripts/generate_vitaldb_pilot.py",
+      "original_sha256": "f083125a14d2bdd33e3cf81e74b7636aadd21301e01bbdbb5b9b6d85c5fb32e4",
+      "published_sha256": "f083125a14d2bdd33e3cf81e74b7636aadd21301e01bbdbb5b9b6d85c5fb32e4",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "scripts/locked_bootstrap.py": {
+      "original_relative_path": "scripts/locked_bootstrap.py",
+      "original_sha256": "43857b232fae204cceb784bcf39a45402f2aeaa98ede060a1d3dc5683c036766",
+      "published_sha256": "43857b232fae204cceb784bcf39a45402f2aeaa98ede060a1d3dc5683c036766",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "scripts/locked_model_worker.py": {
+      "original_relative_path": "scripts/locked_model_worker.py",
+      "original_sha256": "94ae864c0765fa7ee9641d2fc61a9aa35cc403f46554c45b41e2fe4595e92860",
+      "published_sha256": "94ae864c0765fa7ee9641d2fc61a9aa35cc403f46554c45b41e2fe4595e92860",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "scripts/modeling_access_gate.py": {
+      "original_relative_path": "scripts/modeling_access_gate.py",
+      "original_sha256": "b0bd13bf76c7f3aaf2644134ac0fcac8798983da943b562371ed641c072dc879",
+      "published_sha256": "b0bd13bf76c7f3aaf2644134ac0fcac8798983da943b562371ed641c072dc879",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "scripts/modeling_attempts.py": {
+      "original_relative_path": "scripts/modeling_attempts.py",
+      "original_sha256": "44df8c5a5a9d0698c9612254f9a559ea1e12a0edd5db833a424f8ce3a3dfd08d",
+      "published_sha256": "44df8c5a5a9d0698c9612254f9a559ea1e12a0edd5db833a424f8ce3a3dfd08d",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "scripts/modeling_candidate_worker.py": {
+      "original_relative_path": "scripts/modeling_candidate_worker.py",
+      "original_sha256": "4d8a460a6bc29afc3c58614bfc84462bc13d6f87b6aac03f87b3b7e52ee1b9db",
+      "published_sha256": "4d8a460a6bc29afc3c58614bfc84462bc13d6f87b6aac03f87b3b7e52ee1b9db",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "scripts/modeling_development.py": {
+      "original_relative_path": "scripts/modeling_development.py",
+      "original_sha256": "484f30baca051650eef9e98fecf7996b0168f12fab3c74e05bfe21b826cfccc4",
+      "published_sha256": "484f30baca051650eef9e98fecf7996b0168f12fab3c74e05bfe21b826cfccc4",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "scripts/modeling_development_resume.py": {
+      "original_relative_path": "scripts/modeling_development_resume.py",
+      "original_sha256": "d5a17d41d90af05130337f313ef261c337276ff88e9c8bb55a8bea098baf182c",
+      "published_sha256": "d5a17d41d90af05130337f313ef261c337276ff88e9c8bb55a8bea098baf182c",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "scripts/modeling_process_support.py": {
+      "original_relative_path": "scripts/modeling_process_support.py",
+      "original_sha256": "fa2ef140c437ecaaaa25538d19d951092e83fc34d2d66dfd7f3b35be32cb853b",
+      "published_sha256": "fa2ef140c437ecaaaa25538d19d951092e83fc34d2d66dfd7f3b35be32cb853b",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "scripts/modeling_tabpfn_worker.py": {
+      "original_relative_path": "scripts/modeling_tabpfn_worker.py",
+      "original_sha256": "42166f943d20f5a93d821797dd6064632ff83fbb2c4eaa9836dd8b1f2d7b1e72",
+      "published_sha256": "42166f943d20f5a93d821797dd6064632ff83fbb2c4eaa9836dd8b1f2d7b1e72",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "scripts/modeling_xgboost_worker.py": {
+      "original_relative_path": "scripts/modeling_xgboost_worker.py",
+      "original_sha256": "608556fcf0fd2983d9f042c54c3e70e4aec63908294a796d1c67d35052a60a4b",
+      "published_sha256": "608556fcf0fd2983d9f042c54c3e70e4aec63908294a796d1c67d35052a60a4b",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "scripts/run_locked_evaluation.py": {
+      "original_relative_path": "scripts/run_locked_evaluation.py",
+      "original_sha256": "5e1b14d19e0f243c3c699d49b4e9d2ddd9ac77e7ce15bc7e6ec5bf8e5beeeb9c",
+      "published_sha256": "5e1b14d19e0f243c3c699d49b4e9d2ddd9ac77e7ce15bc7e6ec5bf8e5beeeb9c",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "scripts/acquire_vitaldb_cohort.py": {
+      "original_relative_path": "scripts/acquire_vitaldb_cohort.py",
+      "original_sha256": "4f34de0f3d99e60d1cb0616aa4f317236955b513a57ef6a44d7a7b244aa0c9aa",
+      "published_sha256": "33cb5c13c6524a37fc01591cd0c2f79ef3e9bde57fd1be67cd11104d44deeced",
+      "status": "PUBLIC_PRIVACY_ADAPTATION",
+      "byte_identical": false,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null,
+      "change": "Removed hardcoded private pilot case identifiers; explicit --pilot-cases is mandatory. Scientific acquisition function unchanged. Ruff formatting applied only to this privacy adapter."
+    },
+    "artifacts/modeling-v01/calibration-map-recovery-v01/map_recovery_support.py": {
+      "original_relative_path": "artifacts/modeling-v01/calibration-map-recovery-v01/map_recovery_support.py",
+      "original_sha256": "f88ea51e48196ad1aae17c8f728ea89ef98d02f0f96bf2599b31036c23e56e86",
+      "published_sha256": "f88ea51e48196ad1aae17c8f728ea89ef98d02f0f96bf2599b31036c23e56e86",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/modeling-v01/calibration-map-recovery-v01/map_worker.py": {
+      "original_relative_path": "artifacts/modeling-v01/calibration-map-recovery-v01/map_worker.py",
+      "original_sha256": "aa8ea545543f0ea2ff3b3b6b8b2669d4c5e6319821bb9c83bab693c166cb138a",
+      "published_sha256": "aa8ea545543f0ea2ff3b3b6b8b2669d4c5e6319821bb9c83bab693c166cb138a",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/modeling-v01/calibration-map-recovery-v01/recover_map.py": {
+      "original_relative_path": "artifacts/modeling-v01/calibration-map-recovery-v01/recover_map.py",
+      "original_sha256": "e122eef200d9600fd1d26e378fd206f46efb8a7fd718d92b063450dabf500ee7",
+      "published_sha256": "e122eef200d9600fd1d26e378fd206f46efb8a7fd718d92b063450dabf500ee7",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/modeling-v01/calibration-full-first-v01/full_recovery_support.py": {
+      "original_relative_path": "artifacts/modeling-v01/calibration-full-first-v01/full_recovery_support.py",
+      "original_sha256": "4915dd21225b04558a3c679e868ae9ad3f8ab483bac20b233df22a906503014c",
+      "published_sha256": "4915dd21225b04558a3c679e868ae9ad3f8ab483bac20b233df22a906503014c",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/modeling-v01/calibration-full-first-v01/full_worker.py": {
+      "original_relative_path": "artifacts/modeling-v01/calibration-full-first-v01/full_worker.py",
+      "original_sha256": "6725c47b9a3e8db6bb9c4447c961352a19e647f6224b4c6d536a34e6272c2fd0",
+      "published_sha256": "6725c47b9a3e8db6bb9c4447c961352a19e647f6224b4c6d536a34e6272c2fd0",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/modeling-v01/calibration-full-first-v01/run_full_first.py": {
+      "original_relative_path": "artifacts/modeling-v01/calibration-full-first-v01/run_full_first.py",
+      "original_sha256": "ce5b9688f2fd53863afe1ec27729af7fda94ec13dbcbe614bd087aa8d31e920c",
+      "published_sha256": "ce5b9688f2fd53863afe1ec27729af7fda94ec13dbcbe614bd087aa8d31e920c",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/modeling-v01/calibration-aggregation-v01/aggregation_support.py": {
+      "original_relative_path": "artifacts/modeling-v01/calibration-aggregation-v01/aggregation_support.py",
+      "original_sha256": "e191b39bbefb0939864739a889bf798a5a534a629917d7964a92575b97d68cb4",
+      "published_sha256": "e191b39bbefb0939864739a889bf798a5a534a629917d7964a92575b97d68cb4",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/modeling-v01/calibration-aggregation-v01/aggregation_worker.py": {
+      "original_relative_path": "artifacts/modeling-v01/calibration-aggregation-v01/aggregation_worker.py",
+      "original_sha256": "da6c489413b54d0dcb1537b17708128cbc25a30bb5f93061be1fe07c7c5b0cbb",
+      "published_sha256": "da6c489413b54d0dcb1537b17708128cbc25a30bb5f93061be1fe07c7c5b0cbb",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/modeling-v01/calibration-aggregation-v01/run_aggregation.py": {
+      "original_relative_path": "artifacts/modeling-v01/calibration-aggregation-v01/run_aggregation.py",
+      "original_sha256": "2db52e868a9a09d22acc3fea8fbc81f8a5f0a8bb4e5ede6b7b1b62476c86c8e8",
+      "published_sha256": "2db52e868a9a09d22acc3fea8fbc81f8a5f0a8bb4e5ede6b7b1b62476c86c8e8",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/modeling-v01/final-test-v01/final_test_reporting.py": {
+      "original_relative_path": "artifacts/modeling-v01/final-test-v01/final_test_reporting.py",
+      "original_sha256": "4ecc1d7332b4ce1d07fa1ee59553ea65bc9cfc55040033f8744a25ab7fc9fcd0",
+      "published_sha256": "4ecc1d7332b4ce1d07fa1ee59553ea65bc9cfc55040033f8744a25ab7fc9fcd0",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/modeling-v01/final-test-v01/final_test_support.py": {
+      "original_relative_path": "artifacts/modeling-v01/final-test-v01/final_test_support.py",
+      "original_sha256": "43c5d6d4e2d7d7ef38beec0013885bcc180e367defedf06a1f91b6c04b82ebef",
+      "published_sha256": "43c5d6d4e2d7d7ef38beec0013885bcc180e367defedf06a1f91b6c04b82ebef",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/modeling-v01/final-test-v01/final_test_worker.py": {
+      "original_relative_path": "artifacts/modeling-v01/final-test-v01/final_test_worker.py",
+      "original_sha256": "a8aff5e317b861ffe2b713c47f1b7f2073fd00363a6109060b9020f01bdb9948",
+      "published_sha256": "a8aff5e317b861ffe2b713c47f1b7f2073fd00363a6109060b9020f01bdb9948",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/modeling-v01/final-test-v01/run_final_test.py": {
+      "original_relative_path": "artifacts/modeling-v01/final-test-v01/run_final_test.py",
+      "original_sha256": "6e0416ebf0a73a0298682f1c60fa72725b29c0b4312df75a7727476a382fdaa0",
+      "published_sha256": "6e0416ebf0a73a0298682f1c60fa72725b29c0b4312df75a7727476a382fdaa0",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/tabpfn-representation-study-v01/recovery-b-v01/prepare_recovery.py": {
+      "original_relative_path": "artifacts/tabpfn-representation-study-v01/recovery-b-v01/prepare_recovery.py",
+      "original_sha256": "d8489989d2e3ca587f36c99926f3e98873e6cd86c34bc4d5942acd8eaf736e1a",
+      "published_sha256": "d8489989d2e3ca587f36c99926f3e98873e6cd86c34bc4d5942acd8eaf736e1a",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/tabpfn-representation-study-v01/recovery-b-v01/recovery_run.py": {
+      "original_relative_path": "artifacts/tabpfn-representation-study-v01/recovery-b-v01/recovery_run.py",
+      "original_sha256": "ec8a18b4604802d066c20b1571f0d1774d9b14315be94a57b9f69859d3c5bae7",
+      "published_sha256": "ec8a18b4604802d066c20b1571f0d1774d9b14315be94a57b9f69859d3c5bae7",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "artifacts/tabpfn-representation-study-v01/recovery-b-v01/recovery_support.py": {
+      "original_relative_path": "artifacts/tabpfn-representation-study-v01/recovery-b-v01/recovery_support.py",
+      "original_sha256": "a3c5112c56018bff0ee91d17b3bed438e6e280c8c3bea883949d6c3f9cb58840",
+      "published_sha256": "a3c5112c56018bff0ee91d17b3bed438e6e280c8c3bea883949d6c3f9cb58840",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "artifacts/tabpfn-representation-study-v01/recovery-b-v01/recovery_worker.py": {
+      "original_relative_path": "artifacts/tabpfn-representation-study-v01/recovery-b-v01/recovery_worker.py",
+      "original_sha256": "f8e6223d0d1008174a42b02a32e547edd570f1dfb28e388dd5cc73eeda8c83d1",
+      "published_sha256": "f8e6223d0d1008174a42b02a32e547edd570f1dfb28e388dd5cc73eeda8c83d1",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "artifacts/tabpfn-representation-study-v01/study_support.py": {
+      "original_relative_path": "artifacts/tabpfn-representation-study-v01/study_support.py",
+      "original_sha256": "4ac31725b4371e5fcb99f7c740c25649b50bdaa6e1d5bf532d1901398a50bcb5",
+      "published_sha256": "4ac31725b4371e5fcb99f7c740c25649b50bdaa6e1d5bf532d1901398a50bcb5",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "artifacts/tabpfn-representation-study-v01/study_bootstrap.py": {
+      "original_relative_path": "artifacts/tabpfn-representation-study-v01/study_bootstrap.py",
+      "original_sha256": "ecf9cd40304c254f0366e08860813713357a72818d59e4b68d189eb38b83138b",
+      "published_sha256": "ecf9cd40304c254f0366e08860813713357a72818d59e4b68d189eb38b83138b",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "artifacts/tabpfn-representation-study-v01/study_worker.py": {
+      "original_relative_path": "artifacts/tabpfn-representation-study-v01/study_worker.py",
+      "original_sha256": "5e38a05b5f2edfcc027084d08f866eb36befd6bb1096193d30bb7a4ade2a1b46",
+      "published_sha256": "5e38a05b5f2edfcc027084d08f866eb36befd6bb1096193d30bb7a4ade2a1b46",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "artifacts/tabpfn-representation-study-v01/run_study.py": {
+      "original_relative_path": "artifacts/tabpfn-representation-study-v01/run_study.py",
+      "original_sha256": "fac9e7068752c7c992ed81ceb5fdb9a122ab702b5adf68440609a106a7f01f9f",
+      "published_sha256": "fac9e7068752c7c992ed81ceb5fdb9a122ab702b5adf68440609a106a7f01f9f",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "tests/__init__.py": {
+      "original_relative_path": "tests/__init__.py",
+      "original_sha256": "f718892b4ef7af8a07dba4f14a90992d9330ec6575b0fb633732bced57851825",
+      "published_sha256": "f718892b4ef7af8a07dba4f14a90992d9330ec6575b0fb633732bced57851825",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "tests/helpers.py": {
+      "original_relative_path": "tests/helpers.py",
+      "original_sha256": "8b1a4e832809860c72375738ad6836c31f47197583d39c76d507206c584a2599",
+      "published_sha256": "8b1a4e832809860c72375738ad6836c31f47197583d39c76d507206c584a2599",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "tests/test_causal_processing.py": {
+      "original_relative_path": "tests/test_causal_processing.py",
+      "original_sha256": "30194421defa606642fa16fb49f13604dc96111702c3c7585a3a27a1aa9779b2",
+      "published_sha256": "30194421defa606642fa16fb49f13604dc96111702c3c7585a3a27a1aa9779b2",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "tests/test_core_features.py": {
+      "original_relative_path": "tests/test_core_features.py",
+      "original_sha256": "fc5b935153bf0a562ae3a0451fa3926ac8e3f4990bbf13e3e7cbfd1999ae74b4",
+      "published_sha256": "fc5b935153bf0a562ae3a0451fa3926ac8e3f4990bbf13e3e7cbfd1999ae74b4",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "tests/test_labels.py": {
+      "original_relative_path": "tests/test_labels.py",
+      "original_sha256": "149f45ef790c31f74287b101ab39508be953d4e41a095389bbf4ee41e8700eb1",
+      "published_sha256": "149f45ef790c31f74287b101ab39508be953d4e41a095389bbf4ee41e8700eb1",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "tests/test_subject_splits.py": {
+      "original_relative_path": "tests/test_subject_splits.py",
+      "original_sha256": "7ea5623c4da0677a4872846c1eca06c8c5a0cba2927840d85e3a2de147a5a262",
+      "published_sha256": "7ea5623c4da0677a4872846c1eca06c8c5a0cba2927840d85e3a2de147a5a262",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "tests/test_datasets_and_interfaces.py": {
+      "original_relative_path": "tests/test_datasets_and_interfaces.py",
+      "original_sha256": "28f3c81d248634ce38fbef0ed57c438d563601f91d1e98d730231468d967db95",
+      "published_sha256": "28f3c81d248634ce38fbef0ed57c438d563601f91d1e98d730231468d967db95",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "tests/test_metrics.py": {
+      "original_relative_path": "tests/test_metrics.py",
+      "original_sha256": "fba46cdd76f20cb97c287217e027003d2bb3a3fdcd3ca56a23b0bd1ae557582b",
+      "published_sha256": "fba46cdd76f20cb97c287217e027003d2bb3a3fdcd3ca56a23b0bd1ae557582b",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "tests/test_splits.py": {
+      "original_relative_path": "tests/test_splits.py",
+      "original_sha256": "85345d63cd234b723ad1f841c59bb1b847a0979d00baf493051e97dcc69bfe8f",
+      "published_sha256": "85345d63cd234b723ad1f841c59bb1b847a0979d00baf493051e97dcc69bfe8f",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "tests/test_config_and_runtime.py": {
+      "original_relative_path": "tests/test_config_and_runtime.py",
+      "original_sha256": "9c26d2d5671bfd9bd898eb806300e12dd78bfe08cd8ff7625cc1d4b4d363cd38",
+      "published_sha256": "9c26d2d5671bfd9bd898eb806300e12dd78bfe08cd8ff7625cc1d4b4d363cd38",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "tests/test_acquisition_and_pipeline.py": {
+      "original_relative_path": "tests/test_acquisition_and_pipeline.py",
+      "original_sha256": "25918079dbe12bac9f6ec804c07a35b8fe63575812af90a1bb9390d8b185dbf1",
+      "published_sha256": "25918079dbe12bac9f6ec804c07a35b8fe63575812af90a1bb9390d8b185dbf1",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "tests/test_cohort_and_audits.py": {
+      "original_relative_path": "tests/test_cohort_and_audits.py",
+      "original_sha256": "640d83c10711fbe477b1b8120d68ac6b7551eddf0cb275ce8d6a69feb65df93a",
+      "published_sha256": "640d83c10711fbe477b1b8120d68ac6b7551eddf0cb275ce8d6a69feb65df93a",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "tests/test_cohort_continuation.py": {
+      "original_relative_path": "tests/test_cohort_continuation.py",
+      "original_sha256": "5849f2ccb4dd6fb57a3d3ae5429f73d2166d76aead87dcb2888f6222412b6dbd",
+      "published_sha256": "5849f2ccb4dd6fb57a3d3ae5429f73d2166d76aead87dcb2888f6222412b6dbd",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true
+    },
+    "pyproject.toml": {
+      "original_relative_path": "pyproject.toml",
+      "original_sha256": "19be4e85eee41d9ef48916996c4522d5ffa9613365c426aab580fb4fd5122cdc",
+      "published_sha256": "19be4e85eee41d9ef48916996c4522d5ffa9613365c426aab580fb4fd5122cdc",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "configs/default.toml": {
+      "original_relative_path": "configs/default.toml",
+      "original_sha256": "c1fba7eea1a38028fb7f9254d38ca77bb567082d669fa6212cfdb36b39993937",
+      "published_sha256": "c1fba7eea1a38028fb7f9254d38ca77bb567082d669fa6212cfdb36b39993937",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "docs/feature_schema.md": {
+      "original_relative_path": "docs/feature_schema.md",
+      "original_sha256": "ae15c4295a658c522f0703e23dd7129c04ffb57d1e81eb6a0214cf964a1e9482",
+      "published_sha256": "ae15c4295a658c522f0703e23dd7129c04ffb57d1e81eb6a0214cf964a1e9482",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": null,
+      "matches_model_lock_binding": null
+    },
+    "export/export_replay.py": {
+      "original_relative_path": "presentation/tools/export_replay.py",
+      "original_sha256": "af75bd9b017363b7c43c887b2ccd6ea4721ecc988e4716bbb98eaec62f5c6510",
+      "published_sha256": "b9f6eef4014485e2faa2d23eae44cd70abdfb26c709e41b4ab650e099f356355",
+      "byte_identical": false,
+      "status": "PUBLIC_PATH_ADAPTATION",
+      "change": "Only REPO, APP and WORK path initialization changed to explicit environment/destination inputs. Scientific/input hash guards, source reads, causal rendering, output format and refusal-to-overwrite are unchanged."
+    },
+    "export/validate_replay_export.py": {
+      "original_relative_path": "presentation/tools/validate_replay_export.py",
+      "original_sha256": "57939f0bec016f7d40f565c7a6d83fe9a3c92cfeaacdabbc954b57068b974ce5",
+      "published_sha256": "57939f0bec016f7d40f565c7a6d83fe9a3c92cfeaacdabbc954b57068b974ce5",
+      "byte_identical": true,
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND"
+    },
+    "export/replay_schema.json": {
+      "original_relative_path": "presentation/tools/replay_schema.json",
+      "original_sha256": "e264adb71faff8cb75f2eaa67acac68f5057501e555993427012d503939b8756",
+      "published_sha256": "e264adb71faff8cb75f2eaa67acac68f5057501e555993427012d503939b8756",
+      "byte_identical": true,
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND"
+    },
+    "reference/feature_schema.json": {
+      "original_relative_path": "artifacts/vitaldb-cohort-v03/feature_schema.json",
+      "original_sha256": "9f8da2a4980c40c846b263eaaf53cc5c77faa0a9ff4036fb4aa842bb3ae8e77a",
+      "published_sha256": "9f8da2a4980c40c846b263eaaf53cc5c77faa0a9ff4036fb4aa842bb3ae8e77a",
+      "byte_identical": true,
+      "status": "ORIGINAL_ARTIFACT_FOUND"
+    },
+    "reference/feature_sets.json": {
+      "original_relative_path": "artifacts/modeling-v01/feature_sets.json",
+      "original_sha256": "34872089d872d9aab6b8734abead08c1b84ce2381eaedecb67ce676795a369b9",
+      "published_sha256": "34872089d872d9aab6b8734abead08c1b84ce2381eaedecb67ce676795a369b9",
+      "byte_identical": true,
+      "status": "ORIGINAL_ARTIFACT_FOUND"
+    },
+    "reference/calibration_protocol.json": {
+      "original_relative_path": "artifacts/modeling-v01/calibration_protocol.json",
+      "original_sha256": "4d4f948b6d4f534eab52c0b997fcb9e9006abb64114ac2f5b5272d39be238f6e",
+      "published_sha256": "4d4f948b6d4f534eab52c0b997fcb9e9006abb64114ac2f5b5272d39be238f6e",
+      "byte_identical": true,
+      "status": "ORIGINAL_ARTIFACT_FOUND"
+    },
+    "reference/test_protocol.json": {
+      "original_relative_path": "artifacts/modeling-v01/test_protocol.json",
+      "original_sha256": "521dbcb48ee495504e565621e67d489e479af6bf3469306502352b405b60a9dc",
+      "published_sha256": "521dbcb48ee495504e565621e67d489e479af6bf3469306502352b405b60a9dc",
+      "byte_identical": true,
+      "status": "ORIGINAL_ARTIFACT_FOUND"
+    },
+    "reference/calibration_parameters.json": {
+      "original_relative_path": "artifacts/modeling-v01/locked_execution/calibration/calibration_parameters.json",
+      "original_sha256": "6cff372cb831a060cf3457c7c74d3b05d557a2be64a26cc6581016d7e15f5ba2",
+      "published_sha256": "6cff372cb831a060cf3457c7c74d3b05d557a2be64a26cc6581016d7e15f5ba2",
+      "byte_identical": true,
+      "status": "ORIGINAL_ARTIFACT_FOUND"
+    },
+    "reference/sealed_test_metrics.json": {
+      "original_relative_path": "artifacts/modeling-v01/locked_execution/test/metrics.json",
+      "original_sha256": "e95ee9d50eab7df03a40d63bc8a6c2051f4ed2f290e172fe4e531951619fc9ae",
+      "published_sha256": "e95ee9d50eab7df03a40d63bc8a6c2051f4ed2f290e172fe4e531951619fc9ae",
+      "byte_identical": true,
+      "status": "ORIGINAL_ARTIFACT_FOUND"
+    },
+    "reference/table_manifest.json": {
+      "original_relative_path": "artifacts/vitaldb-cohort-v03/table_manifest.json",
+      "original_sha256": "451e52e1d6d0c7989db93b9a2fa5ade24f868e34ac24e55aa4541f3140bb8fa1",
+      "published_sha256": "451e52e1d6d0c7989db93b9a2fa5ade24f868e34ac24e55aa4541f3140bb8fa1",
+      "byte_identical": true,
+      "status": "ORIGINAL_ARTIFACT_FOUND"
+    },
+    "historical_tests/test_final_test_capability.py": {
+      "original_relative_path": "tests/test_final_test_capability.py",
+      "original_sha256": "a6d8199bed6359f344eff4a62edb1214773e26f3ee983d87b13636ea84b3a737",
+      "published_sha256": "a6d8199bed6359f344eff4a62edb1214773e26f3ee983d87b13636ea84b3a737",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null,
+      "public_location_note": "Archived original integration test; private plans/approvals/ledgers required. Excluded from public synthetic-only suite, not claimed passing in the public checkout."
+    },
+    "historical_tests/test_modeling_process_isolation.py": {
+      "original_relative_path": "tests/test_modeling_process_isolation.py",
+      "original_sha256": "e6af44ebaf84987997e4d99b9fe7a64ca20bac9c623ab694fbdc02ef4ab37e0c",
+      "published_sha256": "e6af44ebaf84987997e4d99b9fe7a64ca20bac9c623ab694fbdc02ef4ab37e0c",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true,
+      "public_location_note": "Archived original integration test; private plans/approvals/ledgers required. Excluded from public synthetic-only suite, not claimed passing in the public checkout."
+    },
+    "historical_tests/test_calibration_aggregation.py": {
+      "original_relative_path": "tests/test_calibration_aggregation.py",
+      "original_sha256": "7ed19ffa878f4c8dfd2f350d147775bfac2106a2d42aee9cc7286540d6a14ca1",
+      "published_sha256": "7ed19ffa878f4c8dfd2f350d147775bfac2106a2d42aee9cc7286540d6a14ca1",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null,
+      "public_location_note": "Archived original integration test; private plans/approvals/ledgers required. Excluded from public synthetic-only suite, not claimed passing in the public checkout."
+    },
+    "historical_tests/test_modeling_development.py": {
+      "original_relative_path": "tests/test_modeling_development.py",
+      "original_sha256": "493766000b7caacd9711231cc8fd813e47086dc367434cdbc2793f210bc53fe5",
+      "published_sha256": "493766000b7caacd9711231cc8fd813e47086dc367434cdbc2793f210bc53fe5",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true,
+      "public_location_note": "Archived original integration test; private plans/approvals/ledgers required. Excluded from public synthetic-only suite, not claimed passing in the public checkout."
+    },
+    "historical_tests/test_modeling_attempts.py": {
+      "original_relative_path": "tests/test_modeling_attempts.py",
+      "original_sha256": "4d2a69023fe6723f8b9485bf735683fa34e32d2ebbba4cb4c17a63421a61e08b",
+      "published_sha256": "4d2a69023fe6723f8b9485bf735683fa34e32d2ebbba4cb4c17a63421a61e08b",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true,
+      "public_location_note": "Archived original integration test; private plans/approvals/ledgers required. Excluded from public synthetic-only suite, not claimed passing in the public checkout."
+    },
+    "historical_tests/test_locked_final_execution.py": {
+      "original_relative_path": "tests/test_locked_final_execution.py",
+      "original_sha256": "236fe62073a4ef8af385b3ffc194dbf50c13c5d2eb44edc1300155db5db149c4",
+      "published_sha256": "236fe62073a4ef8af385b3ffc194dbf50c13c5d2eb44edc1300155db5db149c4",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true,
+      "public_location_note": "Archived original integration test; private plans/approvals/ledgers required. Excluded from public synthetic-only suite, not claimed passing in the public checkout."
+    },
+    "historical_tests/test_calibration_map_identity_recovery.py": {
+      "original_relative_path": "tests/test_calibration_map_identity_recovery.py",
+      "original_sha256": "06360ce2f681248e3768d8a5fe41328d729f2ab5f87252c071f51205d56ba420",
+      "published_sha256": "06360ce2f681248e3768d8a5fe41328d729f2ab5f87252c071f51205d56ba420",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null,
+      "public_location_note": "Archived original integration test; private plans/approvals/ledgers required. Excluded from public synthetic-only suite, not claimed passing in the public checkout."
+    },
+    "historical_tests/test_calibration_full_first.py": {
+      "original_relative_path": "tests/test_calibration_full_first.py",
+      "original_sha256": "49b7b8ddc8cc8347fcc439960aeb249b7693847c45f0c6fb398e585d7124e598",
+      "published_sha256": "49b7b8ddc8cc8347fcc439960aeb249b7693847c45f0c6fb398e585d7124e598",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": null,
+      "public_location_note": "Archived original integration test; private plans/approvals/ledgers required. Excluded from public synthetic-only suite, not claimed passing in the public checkout."
+    },
+    "historical_tests/test_tabpfn_B_recovery.py": {
+      "original_relative_path": "tests/test_tabpfn_B_recovery.py",
+      "original_sha256": "920eb46cca9203126dcae63c9b4d38376dd047ff3936b04ad87531b931c8f8bb",
+      "published_sha256": "920eb46cca9203126dcae63c9b4d38376dd047ff3936b04ad87531b931c8f8bb",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true,
+      "public_location_note": "Archived original integration test; private plans/approvals/ledgers required. Excluded from public synthetic-only suite, not claimed passing in the public checkout."
+    },
+    "historical_tests/test_tabpfn_representation_study.py": {
+      "original_relative_path": "tests/test_tabpfn_representation_study.py",
+      "original_sha256": "e3161aa0c1926e02ecd51297aa762a927810ef5e56faa6732fdb10d10e284f62",
+      "published_sha256": "e3161aa0c1926e02ecd51297aa762a927810ef5e56faa6732fdb10d10e284f62",
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "byte_identical": true,
+      "matches_cohort_generation_provenance": null,
+      "matches_final_execution_binding": true,
+      "matches_model_lock_binding": true,
+      "public_location_note": "Archived original integration test; private plans/approvals/ledgers required. Excluded from public synthetic-only suite, not claimed passing in the public checkout."
+    },
+    "scripts/run_modeling_development.sh": {
+      "original_relative_path": "scripts/run_modeling_development.sh",
+      "original_sha256": "0a0f638c92e9585d077c2ef0445d20c96ff5c99a866638d07d6b1a3fb5a33e1b",
+      "published_sha256": "0a0f638c92e9585d077c2ef0445d20c96ff5c99a866638d07d6b1a3fb5a33e1b",
+      "byte_identical": true,
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "scope": "Historical launcher; private plans/approvals required; do not rerun original sealed execution"
+    },
+    "scripts/run_locked_evaluation.sh": {
+      "original_relative_path": "scripts/run_locked_evaluation.sh",
+      "original_sha256": "3ebc005e43168f8b435fb132848e3cac5a8fd337d1b4265688e9c9b7fb7cc078",
+      "published_sha256": "3ebc005e43168f8b435fb132848e3cac5a8fd337d1b4265688e9c9b7fb7cc078",
+      "byte_identical": true,
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "scope": "Historical launcher; private plans/approvals required; do not rerun original sealed execution"
+    },
+    "scripts/resume_modeling_development.sh": {
+      "original_relative_path": "scripts/resume_modeling_development.sh",
+      "original_sha256": "43fb08a55cfa29e123a7637e6cfd24911a1293e430a9d3dd6cc47ef74c6aca0c",
+      "published_sha256": "43fb08a55cfa29e123a7637e6cfd24911a1293e430a9d3dd6cc47ef74c6aca0c",
+      "byte_identical": true,
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "scope": "Historical launcher; private plans/approvals required; do not rerun original sealed execution"
+    },
+    "artifacts/modeling-v01/calibration-map-recovery-v01/run_map_attempt_2.sh": {
+      "original_relative_path": "artifacts/modeling-v01/calibration-map-recovery-v01/run_map_attempt_2.sh",
+      "original_sha256": "3b0d32caaf0b41ca444c9c5c48c6367b618450378fb4bb3e8b69d1cc21dd01ce",
+      "published_sha256": "3b0d32caaf0b41ca444c9c5c48c6367b618450378fb4bb3e8b69d1cc21dd01ce",
+      "byte_identical": true,
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "scope": "Historical launcher; private plans/approvals required; do not rerun original sealed execution"
+    },
+    "artifacts/modeling-v01/calibration-full-first-v01/run_full_first.sh": {
+      "original_relative_path": "artifacts/modeling-v01/calibration-full-first-v01/run_full_first.sh",
+      "original_sha256": "9bd3755ce3dcd0977617942894909856d8837b3f6c0a01c0078447c2ef93d840",
+      "published_sha256": "9bd3755ce3dcd0977617942894909856d8837b3f6c0a01c0078447c2ef93d840",
+      "byte_identical": true,
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "scope": "Historical launcher; private plans/approvals required; do not rerun original sealed execution"
+    },
+    "artifacts/modeling-v01/calibration-aggregation-v01/run_aggregation.sh": {
+      "original_relative_path": "artifacts/modeling-v01/calibration-aggregation-v01/run_aggregation.sh",
+      "original_sha256": "a16c4d11b4cac8beddedc3146911d0de94df8b50ef42f3c2a3ea22ef9714d21c",
+      "published_sha256": "a16c4d11b4cac8beddedc3146911d0de94df8b50ef42f3c2a3ea22ef9714d21c",
+      "byte_identical": true,
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "scope": "Historical launcher; private plans/approvals required; do not rerun original sealed execution"
+    },
+    "artifacts/modeling-v01/final-test-v01/run_final_test.sh": {
+      "original_relative_path": "artifacts/modeling-v01/final-test-v01/run_final_test.sh",
+      "original_sha256": "9bd0ec76b471a4e0d103fcf72edd99951ed3d72904015abdcba99383c4fc08f5",
+      "published_sha256": "9bd0ec76b471a4e0d103fcf72edd99951ed3d72904015abdcba99383c4fc08f5",
+      "byte_identical": true,
+      "status": "ORIGINAL_IMPLEMENTATION_FOUND",
+      "scope": "Historical launcher; private plans/approvals required; do not rerun original sealed execution"
+    }
+  }
+}

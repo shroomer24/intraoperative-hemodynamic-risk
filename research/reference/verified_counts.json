@@ -1,0 +1,83 @@
+{
+  "cases_attempted": 150,
+  "cases_included": 150,
+  "unique_subjects": 150,
+  "unique_cases": 150,
+  "eligible_windows": 22707,
+  "positive_windows": 836,
+  "confirmed_hypotensive_episodes": 296,
+  "evaluable_episodes": 247,
+  "monitored_hours": 477.65166666666664,
+  "censored_candidate_anchors": 1759,
+  "ineligible_candidate_anchors": 3690,
+  "partitions": {
+    "training": {
+      "subjects": 90,
+      "cases": 90,
+      "eligible_windows": 13975,
+      "positive_windows": 498,
+      "negative_windows": 13477,
+      "monitored_hours": 292.08416666666665,
+      "confirmed_episodes": 178,
+      "evaluable_episodes": 145
+    },
+    "tuning": {
+      "subjects": 23,
+      "cases": 23,
+      "eligible_windows": 3193,
+      "positive_windows": 94,
+      "negative_windows": 3099,
+      "monitored_hours": 66.25638888888889,
+      "confirmed_episodes": 28,
+      "evaluable_episodes": 27
+    },
+    "calibration": {
+      "subjects": 15,
+      "cases": 15,
+      "eligible_windows": 2393,
+      "positive_windows": 128,
+      "negative_windows": 2265,
+      "monitored_hours": 53.06111111111111,
+      "confirmed_episodes": 47,
+      "evaluable_episodes": 38
+    },
+    "test": {
+      "subjects": 22,
+      "cases": 22,
+      "eligible_windows": 3146,
+      "positive_windows": 116,
+      "negative_windows": 3030,
+      "monitored_hours": 66.25,
+      "confirmed_episodes": 43,
+      "evaluable_episodes": 37
+    }
+  },
+  "subject_disjointness_independently_verified": true,
+  "status": "VERIFIED_AGAINST_FROZEN_ARTIFACTS_NOT_FULL_COHORT_REGENERATED",
+  "source_sha256": {
+    "artifacts/vitaldb-cohort-v03/cohort_report.json": "19edc78ebd83e67ae2c14504ff49998c8fb0ec19d88d46b9df647582d3d98a86",
+    "artifacts/vitaldb-cohort-v03/realized_split_manifest.json": "e677c28611370edfdebcbf536fc06a8fa2ab1f77895200fb57b4b77fde4f0385",
+    "artifacts/vitaldb-cohort-v03/integrity_report.json": "b98ef6b45b961f14bf3bd63fe10fc60cae4eefd0a35826d7bda2f2929ab9a1fb",
+    "artifacts/modeling-v01/locked_execution/test/completion_receipt.json": "7ee5661490f1d81f3c442f638d2e9845e3d58136ee5112b3a494c52f2815b375"
+  },
+  "test_receipt": {
+    "status": "COMPLETE",
+    "rows": 3146,
+    "subjects": 22,
+    "positive_labels": 116,
+    "execution_count": 1,
+    "models": [
+      "prevalence",
+      "current_map",
+      "logistic_map",
+      "logistic_full",
+      "xgboost",
+      "tabpfn_map",
+      "tabpfn_full"
+    ],
+    "model_lock_sha256": "b2718a7c1ba448cc319c8594f93dc022480c573ef3dec3babd9b14dbdd021c0d",
+    "Platt_refit_calls": 0,
+    "automatic_retry": false,
+    "configuration_changes_allowed": false
+  }
+}

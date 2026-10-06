@@ -250,3 +250,9 @@ Third-party software notices used by the frontend are listed in `THIRD_PARTY_NOT
 The project's own source code is released under the [Apache License, Version 2.0](LICENSE).
 
 Third-party software, frontend dependencies, VitalDB/PhysioNet data, and TabPFN/Prior Labs model assets remain subject to their respective licenses and terms. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for retained software notices.
+
+## Reproducing the experiment
+
+Recovered scientific code, frozen schemas/configurations, and provenance are available under [`research/`](research/). See [`research/README.md`](research/README.md) for validated steps, environment setup, and reproduction commands.
+
+Exact reproduction of the sealed experiment remains partial: private cohort/execution inputs are excluded, and identical hosted TabPFN responses are not guaranteed. The scientific and presentation pipelines remain separate; the recovered research source is now included in this repository.

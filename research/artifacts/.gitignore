@@ -1,0 +1,6 @@
+# Retain original execution SOURCE only; never publish runtime scientific bundles.
+*
+!*/
+!*.py
+!*.sh
+!.gitignore

@@ -1,0 +1,87 @@
+{
+  "logistic_map": {
+    "method": "Platt_logit_logistic",
+    "coefficient": 0.7297439205179267,
+    "intercept": -0.5686494994216078,
+    "epsilon": 1e-06,
+    "fit_partition": "calibration",
+    "configuration_changed": false,
+    "fitting_parameters": {
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "tol": 0.0001,
+      "fit_intercept": true,
+      "class_weight": null,
+      "random_state": 42
+    }
+  },
+  "logistic_full": {
+    "method": "Platt_logit_logistic",
+    "coefficient": 0.650705561096738,
+    "intercept": -0.8078187767952033,
+    "epsilon": 1e-06,
+    "fit_partition": "calibration",
+    "configuration_changed": false,
+    "fitting_parameters": {
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "tol": 0.0001,
+      "fit_intercept": true,
+      "class_weight": null,
+      "random_state": 42
+    }
+  },
+  "xgboost": {
+    "method": "Platt_logit_logistic",
+    "coefficient": 0.9515966466147724,
+    "intercept": -0.020615578392713343,
+    "epsilon": 1e-06,
+    "fit_partition": "calibration",
+    "configuration_changed": false,
+    "fitting_parameters": {
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "tol": 0.0001,
+      "fit_intercept": true,
+      "class_weight": null,
+      "random_state": 42
+    }
+  },
+  "tabpfn_map": {
+    "method": "Platt_logit_logistic",
+    "coefficient": 0.7056409052253757,
+    "intercept": -0.5661993467267635,
+    "epsilon": 1e-06,
+    "fit_partition": "calibration",
+    "configuration_changed": false,
+    "fitting_parameters": {
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "tol": 0.0001,
+      "fit_intercept": true,
+      "class_weight": null,
+      "random_state": 42
+    }
+  },
+  "tabpfn_full": {
+    "method": "Platt_logit_logistic",
+    "coefficient": 1.0594559064699107,
+    "intercept": -0.029297148344735954,
+    "epsilon": 1e-06,
+    "fit_partition": "calibration",
+    "configuration_changed": false,
+    "fitting_parameters": {
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "tol": 0.0001,
+      "fit_intercept": true,
+      "class_weight": null,
+      "random_state": 42
+    }
+  }
+}

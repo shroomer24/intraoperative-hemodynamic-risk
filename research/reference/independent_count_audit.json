@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "method": "independent tally of frozen metadata/labels/episodes, not regeneration of the full cohort",
+  "eligible_windows": 22707,
+  "positive_windows": 836,
+  "subjects": 150,
+  "cases": 150,
+  "confirmed_episodes": 296,
+  "evaluable_episodes": 247,
+  "partitions": {
+    "training": {
+      "windows": 13975,
+      "positives": 498,
+      "subjects": 90,
+      "cases": 90
+    },
+    "tuning": {
+      "windows": 3193,
+      "positives": 94,
+      "subjects": 23,
+      "cases": 23
+    },
+    "calibration": {
+      "windows": 2393,
+      "positives": 128,
+      "subjects": 15,
+      "cases": 15
+    },
+    "test": {
+      "windows": 3146,
+      "positives": 116,
+      "subjects": 22,
+      "cases": 22
+    }
+  },
+  "subject_intersections_empty": true,
+  "patient_identifiers_retained": false,
+  "prediction_metrics_computed": false,
+  "model_fit_calls": 0,
+  "heldout_raw_physiology_loaded": false
+}

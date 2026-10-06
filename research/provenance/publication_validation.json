@@ -1,0 +1,53 @@
+{
+  "scope": "PUBLICATION_VALIDATION_NOT_NEW_SCIENTIFIC_EVALUATION",
+  "frontend": {
+    "npm_ci": "PASS with workspace-local npm cache; global cache unchanged",
+    "local_tests_passed": 284,
+    "public_checkout_tests_passed": 282,
+    "private_export_integration_tests_not_public": 2,
+    "typecheck": "PASS",
+    "build": "PASS",
+    "runtime_source_and_frozen_replay_unchanged": true,
+    "build_sha256": "cd78f580002d822350815b315bd7c2ecbbbb32dd80b3c985f973e1f5dac5299e"
+  },
+  "research": {
+    "public_unit_tests_passed": 97,
+    "synthetic_conventional_model_smokes_passed": 4,
+    "mocked_tabpfn_interface": "PASS; no hosted access tested",
+    "python_ast_files": 101,
+    "shell_syntax_checks": 8,
+    "cli_help_checks": 6,
+    "ruff_lint": "PASS; one explicitly documented archived-test import-order exception",
+    "ruff_format_files": 101,
+    "historical_private_artifact_tests": "PRESERVED, NOT CLAIMED PUBLICLY PASSING"
+  },
+  "artifact_comparison": {
+    "original_scientific_files_hash_unchanged": 1362,
+    "original_bound_files_unchanged": 672,
+    "historical_review_evidence_unchanged": 194,
+    "original_replay_export_files_unchanged": 90,
+    "byte_identical_recovered_entries": 113,
+    "documented_publication_adaptations": 2,
+    "training_cases_rebuilt": 1,
+    "training_anchors_compared": 82,
+    "feature_columns_compared": 74,
+    "labels_anchor_times_onsets_evaluability": "EXACT MATCH",
+    "feature_tolerance": {
+      "rtol": 1e-12,
+      "atol": 1e-10,
+      "equal_nan": true
+    }
+  },
+  "count_verification": "Independent tallies of frozen metadata, labels and episodes; not full source-data regeneration",
+  "scientific_runs": {
+    "hosted_calls": 0,
+    "test_model_evaluations": 0,
+    "model_selection": 0,
+    "scientific_calibration_refits": 0,
+    "sealed_artifacts_modified": 0
+  },
+  "root_readme_existing_bytes_unchanged": true,
+  "apache_license_unchanged": true,
+  "data_and_execution_dependencies_withheld": true,
+  "determination": "PARTIALLY REPRODUCIBLE"
+}
