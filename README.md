@@ -242,7 +242,3 @@ VitalDB paper:
 > Lee, H.-C. et al. *VitalDB, a high-fidelity multi-parameter vital signs database in surgical patients.* Scientific Data 9, 279 (2022).
 
 Third-party software notices used by the frontend are listed in `THIRD_PARTY_NOTICES.md`.
-
-## One-line version
-
-**Continuous operating-room signals → causal five-minute patient state → TabPFN-3.5 → probability of new sustained hypotension within the next five minutes.**
