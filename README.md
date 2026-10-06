@@ -125,7 +125,7 @@ Sealed held-out AP:
 | TabPFN-3.5, MAP only | **0.1839** |
 | TabPFN-3.5, full physiology | **0.1740** |
 
-XGBoost had the best AP on this held-out cohort. I kept that result as-is rather than tuning aorund it and trying to milk the other models. As stated in the rules and following what any sensible person would do, my goal wasn't to force a TabPFN win; it was to test whether a tabular foundation model could work on a causal representation of continuous perioperative data and compare it fairly against strong conventional baselines.
+XGBoost had the best AP on this held-out cohort. I kept that result as-is rather than tuning around it and trying to milk the other models. As stated in the rules and following what any sensible person would do, my goal wasn't to force a TabPFN win; it was to test whether a tabular foundation model could work on a causal representation of continuous perioperative data and compare it fairly against strong conventional baselines.
 
 ## Demo
 
